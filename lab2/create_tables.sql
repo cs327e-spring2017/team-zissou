@@ -37,8 +37,8 @@ create table Actors(
 create table Casts(
 	cast_id int primary key,
 	movie_id int references Movies(movie_id),
-	actor_id int references Actors(actor_id),
 	series_id int references Series(series_id),
+	actor_id int references Actors(actor_id),
 	character text,
 	position int);
 

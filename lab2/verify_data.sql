@@ -1,0 +1,8 @@
+-- Table row totals should be:
+-- Movies: 1130941
+-- Genres: 34
+-- Keywords: 38709
+-- Series: 1122535
+-- Actors: 3812047
+-- Casts: 
+-- Characters: 74981
