@@ -1,8 +1,15 @@
--- Table row totals should be:
--- Movies: 1130941
--- Genres: 34
--- Keywords: 38709
--- Series: 1122535
--- Actors: 3812047
--- Casts: 
--- Characters: 74981
+-- verify numbers of rows
+select count(*) from Movies;
+select count(*) from Genres;
+select count(*) from Keywords;
+select count(*) from Series;
+select count(*) from Actors;
+select count(*) from Casts;
+select count(*) from Characters;
+
+--examine some sample rows
+select * from Actors
+where first_name='Nicolas' and last_name='Cage';
+--nick cage's actor_id = 1705341
+select * from Casts
+where actor_id=1705341;
