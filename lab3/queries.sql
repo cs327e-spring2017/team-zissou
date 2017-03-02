@@ -52,8 +52,8 @@ limit 1;
 
 
 --10
-select m.title from Movies m
-inner join Casts c on m.movie_id = c.movie_id
+select c.cast_id, c.movie_id from Casts c
+inner join Movies m on c.movie_id = m.movie_id
 group by c.cast_id
 order by count(*) desc
 limit 1;
