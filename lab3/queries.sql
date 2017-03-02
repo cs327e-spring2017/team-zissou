@@ -10,7 +10,8 @@ where last_name='Smith';
 
 --3
 select cast(count(series_id) as float)/cast(count(*) as float) as prop_show
-from Movies m full join Series s on m.movie_id = s.series_id;
+from Movies m full join Series s on m.movie_id = s.series_id
+where year=2016;
 
 --4
 select count(distinct movie_id)
@@ -27,9 +28,10 @@ from (select m.movie_id, count(char_id) as num_chars
 
 --6
 select avg(num_episodes)
-from (select movie_id, season, count(series_id) as num_episodes
-	  from Series
-	  group by movie_id, season) as temp;
+from (select s.movie_id, season, title, count(series_id) as num_episodes
+	  from Series s left join Movies m on s.movie_id = m.movie_id
+	  group by s.movie_id, season, title
+	  having title='The Simpsons') as temp;
 
 --7
 select count(episode_num) as epi_num_occurance from Series
