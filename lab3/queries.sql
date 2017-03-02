@@ -34,18 +34,28 @@ from (select s.movie_id, season, title, count(series_id) as num_episodes
 	  having title='The Simpsons') as temp;
 
 --7
-
+select count(episode_num) as epi_num_occurance from Series
+group by episode_num
+order by epi_num_occurance desc
+limit 1;
 
 --8
-
+select last_name from Actors
+group by last_name
+order by count(*)
+limit 1;
 
 --9
+select Actors.actor_id, Actors.last_name, Actors.first_name from Actors 
+inner join Casts on Actors.actor_id = Casts.actor_id
+group by Actors.actor_id
+order by count(*) desc
+limit 1;
 
 
 --10
-
-
---11
-
-
---12
+select c.cast_id, c.movie_id from Casts c
+inner join Movies m on c.movie_id = m.movie_id
+group by c.cast_id
+order by count(*) desc
+limit 1;

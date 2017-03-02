@@ -1,12 +1,21 @@
 1. how many movies in 2016?
-2. how many actors in 2016?
-3. how many different locations?
-4. how many movies has nicholas cage been in?
-5. average number of times each location is used?
-6. how many seasons on average do shows last?
-7. average number of genres a movie falls into?
-8. average number of keywords a movie has?
-9. how many different roles on average has each actor played?
-10. which movie has the most genres?
-11. which actor has starred in the most movies?
-12. which movie had the largest cast?
+2. how many actors with the last name 'Smith'?
+3. what proportion of the database is made up of shows (not movies)?
+4. how many movies has nicolas cage been in?
+5. average number of characters in a movie for a given year?
+6. average number of episodes per season?
+7. most number of episodes in a movie?
+8. which first name is common for actors?
+9. which actor has starred in the most movies?
+10. which movie had the largest cast?
+
+
+
+
+a) contain 3 inner joins - 2
+b) contain 1 outer join - 
+c) contain 3 aggregate functions - 0
+d) contain 2 group bys - 2
+e) contain 2 having conditions - 2
+f) contain 5 where conditions - 2
+g) contain 3 order bys
