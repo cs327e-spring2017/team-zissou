@@ -6,9 +6,8 @@
 6. average number of episodes per season?
 7. most number of episodes in a movie?
 8. which first name is common for actors?
-10. which movie has the most genres?
-11. which actor has starred in the most movies?
-11. which movie had the largest cast?
+9. which actor has starred in the most movies?
+10. which movie had the largest cast?
 
 
 
