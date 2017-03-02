@@ -1,7 +1,7 @@
 import sys
 from queries import *
 
-COMMAND_COUNT = 5
+COMMAND_COUNT = 10
 running = True
 
 cursor = connect()
@@ -36,9 +36,8 @@ while running:
 	if choice == 0:
 		print('Exiting Command Menu...')
 		running = False
-	elif choice == 1:
-		example_one(cursor)
-	elif choice == 2:
-		example_two(cursor)
-	elif choice == 3:
-		example_three(cursor)
+	else:
+		q = [None,query_one,query_two,query_three,query_four,query_five,
+			query_six,query_seven,query_eight,query_nine,query_ten]
+		q[choice](cursor)
+

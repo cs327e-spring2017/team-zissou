@@ -60,34 +60,34 @@ def example_three(cursor):
     else:
         print('No movie correspondes to the title: ' + title)
 
-def query_one():
+def query_one(cursor):
     year = input('Choose a year: ')
 
-def query_two():
+def query_two(cursor):
     last_name = input('Choose a last name: ')
 
-def query_three():
+def query_three(cursor):
     year = input('Choose a year: ')
 
-def query_four():
+def query_four(cursor):
     name = input('Enter an actor\'s name (format: last name, first name): ')
     first_name, last_name = x
 
-def query_five():
+def query_five(cursor):
     year = input('Choose a year: ')
 
-def query_six():
+def query_six(cursor):
     name = input('Enter a show name: ')
 
-def query_seven():
+def query_seven(cursor):
     pass
 
-def query_eight():
+def query_eight(cursor):
     pass
 
-def query_nine():
+def query_nine(cursor):
     pass
 
-def query_ten():
+def query_ten(cursor):
     pass
 
