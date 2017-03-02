@@ -1,0 +1,19 @@
+1. how many movies in 2016?
+
+2. how many actors with the last name 'Smith'?
+
+3. what proportion of the database is made up of shows (not movies)?
+
+4. how many movies has nicolas cage been in?
+
+5. average number of characters in a movie for a given year?
+
+6. average number of episodes per season?
+
+7. most number of episodes in a movie?
+
+8. which first name is common for actors?
+
+9. which actor has starred in the most movies?
+
+10. which movie had the largest cast?
