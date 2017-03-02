@@ -118,22 +118,37 @@ def query_six(cursor):
 
 def query_seven():
     year = input('Select a year: ')
-    query = "select count(episode_num) as epi_num_occurance from Series group by episode_num order by epi_num_occurance desc limit 1;"
+    query = \
+        "select count(episode_num) as epi_num_occurance from Series \
+        group by episode_num \
+        order by epi_num_occurance desc \
+        limit 1;"
     result = run_query(query, cursor)
     print_table(result)
 
 def query_eight():
-    query = "select last_name from Actors group by last_name order by count(*) limit 1;"
+    query = "select last_name from Actors \
+    group by last_name \
+    order by count(*) limit 1;"
     result = run_query(query, cursor)
     print_table(result)
 
 def query_nine():
-    query = "select Actors.actor_id, Actors.last_name, Actors.first_name from Actors inner join Casts on Actors.actor_id = Casts.actor_id group by Actors.actor_id order by count(*) desc limit 1;"
+    query = "select Actors.actor_id, Actors.last_name, Actors.first_name from Actors \
+    inner join Casts on Actors.actor_id = Casts.actor_id \
+    group by Actors.actor_id \
+    order by count(*) desc \
+    limit 1;"
     result = run_query(query, cursor)
     print_table(result)
 
 def query_ten():
     year_ = input('Choose a year: ')
-    query = "select  m.movie_id, m.title, m.year from Movies m inner join Casts c on m.movie_id = c.movie_id where year = " + year_ + " ' group by m.movie_id, m.title order by count(*) desc limit 5;"
+    query = "select  m.movie_id, m.title, m.year from Movies m \
+    inner join Casts c on m.movie_id = c.movie_id \
+    where year = " + year_ + " \
+    ' group by m.movie_id, m.title \
+    order by count(*) desc \
+    limit 5;"
     result = run_query(query, cursor)
     print_table(result)
