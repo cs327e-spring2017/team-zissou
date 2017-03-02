@@ -32,17 +32,16 @@ from (select movie_id, season, count(series_id) as num_episodes
 	  group by movie_id, season) as temp;
 
 --7
-select episode_num from Series
-group by episode_num;
-having (episode_num == max(Series.episode_num)
-limit 1);
+select count(episode_num) as epi_num_occurance from Series
+group by episode_num
+order by epi_num_occurance desc
+limit 1;
 
 --8
 select last_name from Actors
 group by last_name
 order by count(*)
 limit 1;
-
 
 --9
 select Actors.actor_id, Actors.last_name, Actors.first_name from Actors 
@@ -53,9 +52,8 @@ limit 1;
 
 
 --10
-select title from Movies
-inner join Casts
-having(
-	group by movie_id, order by count(*) desc
-	limit 1;
-);
+select m.title from Movies m
+inner join Casts c on m.movie_id = c.movie_id
+group by c.cast_id
+order by count(*) desc
+limit 1;
