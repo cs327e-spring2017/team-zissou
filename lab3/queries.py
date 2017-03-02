@@ -60,24 +60,61 @@ def example_three(cursor):
     else:
         print('No movie correspondes to the title: ' + title)
 
-def query_one():
+def query_one(cursor):
     year = input('Choose a year: ')
+    query = \
+        'select count(movie_id) from Movies where year={};'.format(year)
+    result = run_query(query, cursor)
+    print_table(result)
 
-def query_two():
+def query_two(cursor):
     last_name = input('Choose a last name: ')
+    query = \
+        'select count(actor_id) from Actors where last_name=\'{}\';'.format(last_name)
+    result = run_query(query, cursor)
+    print_table(result)
 
-def query_three():
+def query_three(cursor):
     year = input('Choose a year: ')
+    query = \
+        'select cast(count(series_id) as float)/cast(count(*) as float) as prop_show \
+         from Movies m full join Series s on m.movie_id = s.series_id \
+         where year={};'.format(year)
+    result = run_query(query, cursor)
+    print_table(result)
 
-def query_four():
+def query_four(cursor):
     name = input('Enter an actor\'s name (format: last name, first name): ')
-    first_name, last_name = x
+    last_name, first_name = [x.strip() for x in name.split(',')]
+    query = \
+        'select count(distinct movie_id) \
+         from Casts c inner join Actors a on c.actor_id = a.actor_id \
+         where first_name=\'{}\' and last_name=\'{}\';'.format(first_name, last_name)
+    result = run_query(query, cursor)
+    print_table(result)
 
-def query_five():
+def query_five(cursor):
     year = input('Choose a year: ')
+    query = \
+        'select avg(num_chars) \
+         from (select m.movie_id, count(char_id) as num_chars \
+               from Characters a inner join Casts b on a.actor_id = b.actor_id \
+               inner join Movies m on b.movie_id = m.movie_id \
+               group by m.movie_id, series_id \
+               having year={} and series_id is null) as temp;'.format(year)
+    result = run_query(query, cursor)
+    print_table(result)
 
-def query_six():
-
+def query_six(cursor):
+    name = input('Enter a show name: ')
+    query = \
+        'select avg(num_episodes) \
+         from (select s.movie_id, season, title, count(series_id) as num_episodes \
+               from Series s left join Movies m on s.movie_id = m.movie_id \
+               group by s.movie_id, season, title \
+               having title=\'{}\') as temp;'.format(name)
+    result = run_query(query, cursor)
+    print_table(result)
 
 def query_seven():
     year = input('Select a year: ')
