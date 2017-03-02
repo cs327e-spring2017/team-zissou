@@ -60,34 +60,38 @@ def example_three(cursor):
     else:
         print('No movie correspondes to the title: ' + title)
 
-def query_one(cursor):
+def query_one():
     year = input('Choose a year: ')
 
-def query_two(cursor):
+def query_two():
     last_name = input('Choose a last name: ')
 
-def query_three(cursor):
+def query_three():
     year = input('Choose a year: ')
 
-def query_four(cursor):
+def query_four():
     name = input('Enter an actor\'s name (format: last name, first name): ')
     first_name, last_name = x
 
-def query_five(cursor):
+def query_five():
     year = input('Choose a year: ')
 
-def query_six(cursor):
+def query_six():
     name = input('Enter a show name: ')
 
-def query_seven(cursor):
+def query_seven():
+    year = input('Select a year: ')
+
+def query_eight():
     pass
 
-def query_eight(cursor):
-    pass
-
-def query_nine(cursor):
-    pass
-
-def query_ten(cursor):
-    pass
-
+def query_nine():
+    query = "select Actors.actor_id, Actors.last_name, Actors.first_name from Actors inner join Casts on Actors.actor_id = Casts.actor_id group by Actors.actor_id order by count(*) desc limit 1;"
+    result = run_query(query, cursor)
+    print_table(result)
+    
+def query_ten():
+    year_ = input('Choose a year: ')
+    query = "select  m.movie_id, m.title, m.year from Movies m inner join Casts c on m.movie_id = c.movie_id where year = " + year_ + " ' group by m.movie_id, m.title order by count(*) desc limit 5;"
+    result = run_query(query, cursor)
+    print_table(result)
