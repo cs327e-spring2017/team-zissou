@@ -2,7 +2,7 @@
 
 2. how many actors with the last name 'Smith'?
 
-3. what proportion of the database is made up of shows (not movies)?
+3. what proportion of the database is made up of shows (not movies) in a given year?
 
 4. how many movies has nicolas cage been in?
 
