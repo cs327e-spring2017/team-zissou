@@ -1,2 +1,2 @@
-Two files for Music Brainz physical diagram. The pdf is in their as requested, as well as a png image that is easier to look at.
 As best we can tell, the columns of "release_group_alias.csv" in Musicbrainz are mislabeled. The given column names are "id, name, parent, ..." but sample rows look like "1, 138133, Earth Crossing,". There is no release_group column and thus apparently no way to connect this to the release_group data set. We think that what it calls "name" is actually the release_group IDs, and what it calls "parent" are actually the alias names. We are working under this assumption.
+Two files for each diagram. The pdfs are in the repo as requested, as well as a png image that is easier to look at.
