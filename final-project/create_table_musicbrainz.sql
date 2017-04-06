@@ -17,7 +17,7 @@ create table musicbrainz.Artist(
    area text,
    gender text,
    comment text,
-   edits_pending boolean,
+   edits_pending text,
    last_updated text,
    ended text,
    begin_area text,
@@ -30,7 +30,7 @@ create table musicbrainz.Artist_Alias(
    name text,
    locale text,
    edits_pending boolean,
-   last_updated decimal(29,3),
+   last_updated text,
    type text,
    sort_name text,
    begin_date_year text,
@@ -54,7 +54,7 @@ create table musicbrainz.Artist_Alias_Type(
 
 create table musicbrainz.Artist_Credit_Name(
    artist_credit integer,
-   position boolean,
+   position text,
    artist integer,
    name text,
    join_phrase text
@@ -94,7 +94,7 @@ create table musicbrainz.Label_Alias(
    name text,
    locale text,
    edits_pending boolean,
-   last_updated decimal(28,3),
+   last_updated text,
    type integer,
    sort_name text,
    begin_date_year text,
@@ -129,11 +129,11 @@ create table musicbrainz.Language(
 create table musicbrainz.Medium(
    id integer,
    release integer,
-   position boolean,
-   format boolean,
-   name decimal(32,0),
-   edits_pending boolean,
-   last_updated decimal(29,3),
+   position text,
+   format text,
+   name text,
+   edits_pending text,
+   last_updated text,
    track_count integer
 );
 
@@ -154,15 +154,15 @@ create table musicbrainz.Release(
    name text,
    artist_credit integer,
    release_group integer,
-   status boolean,
-   packaging boolean,
+   status text,
+   packaging text,
    language integer,
    script integer,
-   barcode integer,
+   barcode bigint,
    comment text,
-   edits_pending boolean,
+   edits_pending text,
    quality text,
-   last_updated decimal(29,3)
+   last_updated text
 );
 
 create table musicbrainz.Release_Alias(
@@ -170,8 +170,8 @@ create table musicbrainz.Release_Alias(
    release integer,
    name text,
    locale text,
-   edits_pending boolean,
-   last_updated decimal(29,3),
+   edits_pending text,
+   last_updated text,
    type text,
    sort_name text,
    begin_date_year text,
@@ -188,7 +188,7 @@ create table musicbrainz.Release_Alias_Type(
    id integer,
    name text,
    parent text,
-   child_order boolean,
+   child_order text,
    description text,
    gid text
 );
@@ -200,8 +200,8 @@ create table musicbrainz.Release_Group(
    artist_credit integer,
    type text,
    comment text,
-   edits_pending boolean,
-   last_updated decimal(29,3)
+   edits_pending text,
+   last_updated text
 );
 
 create table musicbrainz.Release_Group_Alias(
@@ -209,8 +209,18 @@ create table musicbrainz.Release_Group_Alias(
    release_id integer,
    name text,
    child_order text,
-   description boolean,
-   gid decimal(28,3)
+   description text,
+   gid text,
+   blank1 text,
+   blank2 text,
+   blank3 text,
+   blank4 text,
+   blank5 text,
+   blank6 text,
+   blank7 text,
+   blank8 text,
+   blank9 text,
+   blank10 text
 );
 
 create table musicbrainz.Release_Group_Primary_Type(
@@ -236,7 +246,7 @@ create table musicbrainz.Release_Label(
    release integer,
    label integer,
    catalog_number text,
-   last_updated decimal(29,3)
+   last_updated text
 );
 
 create table musicbrainz.Track(
@@ -244,23 +254,23 @@ create table musicbrainz.Track(
    gid text,
    recording integer,
    medium integer,
-   position boolean,
-   number boolean,
+   position text,
+   num text,
    name text,
    artist_credit integer,
    length integer,
-   edits_pending boolean,
-   last_updated decimal(29,3),
+   edits_pending text,
+   last_updated text,
    is_data_track text
 );
 
 create table musicbrainz.Work(
    id integer,
    gid text,
-   name decimal(38,3),
+   name text,
    type text,
    comment text,
-   edits_pending boolean,
-   last_updated decimal(29,3),
+   edits_pending text,
+   last_updated text,
    language text
 );
