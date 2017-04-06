@@ -1,0 +1,121 @@
+dev=# select * from discog.Artists order by random() limit 10;
+ tist_id |           name           |         realname         
+---------+--------------------------+--------------------------
+ 1145502 | Eugen Roth               | Eugen Roth
+  258823 | Philippe Missir          | Philippe Missir
+ 1206906 | Garbis Selim Vartanouche | Garbis Selim Vartanouche
+  882220 | Ray Majors               | Ray Majors
+  262191 | Deepak Sharma            | Deepak Sharma
+  676469 | J. Jayne                 | J. Jayne
+ 1226296 | Renee Shardt             | Renee Shardt
+  923803 | Ferdinand Louis Benech   | Ferdinand Louis Benech
+  409195 | Meck (2)                 | Craig Dimech
+  332491 | Totally Insane           | Totally Insane
+(10 rows)
+
+dev=# select * from discog.Genres order by random() limit 10;
+ genre_id |         name         
+----------+----------------------
+        4 | Latin
+       11 | Folk World & Country
+       14 | Children's
+        7 | Non-Music
+        3 | Rock
+       15 | Brass & Military
+        6 | Stage & Screen
+       13 | Blues
+        2 | Jazz
+        1 | Electronic
+(10 rows)
+
+dev=# select * from discog.Labels order by random() limit 10;
+ label_id |             name              
+----------+-------------------------------
+   914372 | Distant Whisper Music
+   459895 | Ed. Matterhorn
+   234143 | Aquadelta
+  1053477 | Makossa Publishing Co.
+   748475 | Clubtrax (2)
+   143991 | Kann' Production
+  1033889 | INA Collection Archives
+   913777 | East Dragon Classical Records
+   441474 | Bass Cave
+   165402 | Schoolly-D Records (2)
+(10 rows)
+
+dev=# select * from discog.Releases order by random() limit 10;
+ release_id |                        title                        | num_tracks |  released  | country 
+------------+-----------------------------------------------------+------------+------------+---------
+     931420 | Dance Hits (Instrumental)                           |          9 | 1990       | India
+     222131 | Rollin'                                             |          4 | 2003       | France
+     358741 | London Kings / Sterling Forever                     |          6 | 2002       | UK
+      83178 | Step To The Side / Hallelujah                       |          2 | 1996       | UK
+    1920877 | The Devil Gives Me Everything Part 1 & Part 2       |          2 | 2009       | Finland
+    1040112 | Love Is Just A Word                                 |          2 | 1987       | Spain
+    1494038 | The Original Soundtrack From The Film Black Orpheus |         17 | 1989       | US
+      93120 | More Is More / John Crow Flies East                 |          2 | 2000       | UK
+     374061 | Crossing The Red Sea With The Adverts               |         12 | 1981-10-00 | UK
+    1094761 | Domain                                              |         12 | 2007       | US
+(10 rows)
+
+dev=# select * from discog.Releases_Artists order by random() limit 10;
+ release_id | artist_id 
+------------+-----------
+     784781 |     13820
+    6762963 |    835190
+    6979768 |   1856943
+    8301122 |   2752352
+    7852961 |    823061
+    8952549 |    783180
+    2093115 |   1708669
+    5491461 |       194
+    1399756 |     22061
+    2075540 |    464916
+(10 rows)
+
+dev=# select * from discog.Releases_Formats order by random() limit 10;
+ release_id | format_type 
+------------+-------------
+    4590866 | Vinyl
+    4550615 | Vinyl
+    4205635 | CD
+    8784596 | CD
+    2307671 | Vinyl
+    5604902 | Vinyl
+    2108787 | Vinyl
+    5060656 | Vinyl
+    4122918 | Vinyl
+    5482261 | Vinyl
+(10 rows)
+
+dev=# select * from discog.Releases_Genres order by random() limit 10;
+ release_id | genre_id 
+------------+----------
+    1394452 |        1
+    1082752 |        1
+     919128 |        5
+    1459230 |        1
+    1507948 |        2
+    1433991 |        3
+      85767 |        1
+     156141 |        1
+     630708 |        3
+      93333 |        1
+(10 rows)
+
+dev=# select * from discog.Releases_labels order by random() limit 10;
+ release_id | label_id 
+------------+----------
+     994282 |    40246
+    7358965 |   308661
+     103448 |      111
+    7214885 |    52764
+    8099363 |   992437
+    7583872 |   993178
+    9624642 |     3198
+    1293378 |      750
+     243080 |    12903
+    1742057 |   316924
+(10 rows)
+
+dev=# 

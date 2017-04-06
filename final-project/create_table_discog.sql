@@ -38,7 +38,7 @@ create table discog.Releases_Formats(
 
 create table discog.Releases_Genres(
    release_id integer,
-   genre_id boolean
+   genre_id integer
 );
 
 create table discog.Releases_Labels(
