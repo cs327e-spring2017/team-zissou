@@ -1,0 +1,7 @@
+id,name,parent,child_order,description,gid
+3,Other,\N,99,\N,a0df5ead-0bd6-33d8-8444-855a9f3e9970
+1,Studio,\N,1,"A place designed for non-live production of music, typically a recording studio.",05fa6a09-ff92-3d34-bdbb-5141d3c24f38
+2,Venue,\N,2,"A place that has live artistic performances as one of its primary functions, such as a concert hall.",cd92781a-a73f-30e8-a430-55d7521338db
+4,Stadium,\N,3,"A place whose main purpose is to host outdoor sport events, typically consisting of a pitch surrounded by a structure for spectators with no roof, or a roof which can be retracted.",62664fbd-cd55-3b5f-a5ea-fb5d1bc0113c
+5,Indoor arena,\N,4,"A place consisting of a large enclosed area with a central event space surrounded by tiered seating for spectators, which can be used for indoor sports, concerts and other entertainment events.",a77c11f6-82fa-3cc0-9041-ac60e5f6e024
+6,Religious building,\N,5,"A place that has worship or religious studies as its main function. Religious buildings often host concerts and serve as recording locations, especially for classical music.",a120ca4a-69e9-3c0e-bc09-21cae26eb621

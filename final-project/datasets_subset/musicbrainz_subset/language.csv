@@ -1,0 +1,101 @@
+id,iso_code_2t,iso_code_2b,iso_code_1,name,frequency,iso_code_3
+4369,\N,\N,\N,Montagnais,1,moe
+4663,\N,\N,\N,Min Nan Chinese,1,nan
+5690,\N,\N,\N,Réunion Creole French,1,rcf
+5808,\N,\N,\N,Yaeyama,1,rys
+6966,\N,\N,\N,Võro,1,vro
+7640,\N,\N,\N,Yue Chinese,1,yue
+152,gmh,gmh,\N,"German, Middle High (ca.1050-1500)",1,gmh
+7217,\N,\N,\N,Celtiberian,1,xce
+3185,\N,\N,\N,Kabuverdianu,1,kea
+3529,\N,\N,\N,Kölsch,1,ksh
+3880,\N,\N,\N,Lakota,1,lkt
+4039,\N,\N,\N,Laz,1,lzz
+3858,\N,\N,\N,Liv,1,liv
+5989,\N,\N,\N,Sindarin,1,sjn
+487,\N,\N,\N,Ghotuo,0,aaa
+488,\N,\N,\N,Alumu-Tesu,0,aab
+7303,\N,\N,\N,Cuneiform Luwian,1,xlu
+489,\N,\N,\N,Ari,0,aac
+490,\N,\N,\N,Amal,0,aad
+491,\N,\N,\N,Arbëreshë Albanian,0,aae
+492,\N,\N,\N,Aranadan,0,aaf
+493,\N,\N,\N,Ambrak,0,aag
+494,\N,\N,\N,Abu' Arapesh,0,aah
+495,\N,\N,\N,Arifama-Miniafia,0,aai
+496,\N,\N,\N,Ankave,0,aak
+497,\N,\N,\N,Afade,0,aal
+498,\N,\N,\N,Aramanik,0,aam
+499,\N,\N,\N,Anambé,0,aan
+500,\N,\N,\N,Algerian Saharan Arabic,0,aao
+501,\N,\N,\N,Pará Arára,0,aap
+502,\N,\N,\N,Eastern Abnaki,0,aaq
+1,aar,aar,aa,Afar,1,aar
+503,\N,\N,\N,Aasáx,0,aas
+504,\N,\N,\N,Arvanitika Albanian,0,aat
+505,\N,\N,\N,Abau,0,aau
+506,\N,\N,\N,Solong,0,aaw
+507,\N,\N,\N,Mandobo Atas,0,aax
+508,\N,\N,\N,Amarasi,0,aaz
+509,\N,\N,\N,Abé,0,aba
+510,\N,\N,\N,Bankon,0,abb
+511,\N,\N,\N,Ambala Ayta,0,abc
+512,\N,\N,\N,Manide,0,abd
+513,\N,\N,\N,Western Abnaki,0,abe
+514,\N,\N,\N,Abai Sungai,0,abf
+515,\N,\N,\N,Abaga,0,abg
+516,\N,\N,\N,Tajiki Arabic,0,abh
+517,\N,\N,\N,Abidji,0,abi
+518,\N,\N,\N,Aka-Bea,0,abj
+2,abk,abk,ab,Abkhazian,1,abk
+519,\N,\N,\N,Lampung Nyo,0,abl
+520,\N,\N,\N,Abanyom,0,abm
+521,\N,\N,\N,Abua,0,abn
+522,\N,\N,\N,Abon,0,abo
+523,\N,\N,\N,Abellen Ayta,0,abp
+524,\N,\N,\N,Abaza,0,abq
+525,\N,\N,\N,Abron,0,abr
+526,\N,\N,\N,Ambonese Malay,0,abs
+527,\N,\N,\N,Ambulas,0,abt
+24,art,art,\N,[Artificial (Other)],1,qaa
+528,\N,\N,\N,Abure,0,abu
+529,\N,\N,\N,Baharna Arabic,0,abv
+530,\N,\N,\N,Pal,0,abw
+531,\N,\N,\N,Inabaknon,0,abx
+532,\N,\N,\N,Aneme Wake,0,aby
+533,\N,\N,\N,Abui,0,abz
+534,\N,\N,\N,Achagua,0,aca
+535,\N,\N,\N,Áncá,0,acb
+536,\N,\N,\N,Gikyode,0,acd
+3,ace,ace,\N,Achinese,1,ace
+537,\N,\N,\N,Saint Lucian Creole French,0,acf
+4,ach,ach,\N,Acoli,1,ach
+538,\N,\N,\N,Aka-Cari,0,aci
+539,\N,\N,\N,Aka-Kora,0,ack
+540,\N,\N,\N,Akar-Bale,0,acl
+541,\N,\N,\N,Mesopotamian Arabic,0,acm
+542,\N,\N,\N,Achang,0,acn
+543,\N,\N,\N,Eastern Acipa,0,acp
+544,\N,\N,\N,Ta'izzi-Adeni Arabic,0,acq
+545,\N,\N,\N,Achi,0,acr
+546,\N,\N,\N,Acroá,0,acs
+547,\N,\N,\N,Achterhoeks,0,act
+548,\N,\N,\N,Achuar-Shiwiar,0,acu
+549,\N,\N,\N,Achumawi,0,acv
+550,\N,\N,\N,Hijazi Arabic,0,acw
+551,\N,\N,\N,Omani Arabic,0,acx
+552,\N,\N,\N,Cypriot Arabic,0,acy
+553,\N,\N,\N,Acheron,0,acz
+5,ada,ada,\N,Adangme,1,ada
+554,\N,\N,\N,Adabe,0,adb
+555,\N,\N,\N,Dzodinka,0,add
+556,\N,\N,\N,Adele,0,ade
+557,\N,\N,\N,Dhofari Arabic,0,adf
+558,\N,\N,\N,Andegerebinha,0,adg
+559,\N,\N,\N,Adhola,0,adh
+560,\N,\N,\N,Adi,0,adi
+561,\N,\N,\N,Adioukrou,0,adj
+562,\N,\N,\N,Galo,0,adl
+563,\N,\N,\N,Adang,0,adn
+564,\N,\N,\N,Abu,0,ado
+565,\N,\N,\N,Adap,0,adp

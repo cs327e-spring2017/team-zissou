@@ -1,0 +1,10 @@
+id,name,entity_type,parent,child_order,description,gid
+7,Tour,event,6,0,A series of related concerts by an artist in different locations.,8ff6df0e-3dce-3bdf-bd57-d386c51b0060
+8,Festival,event,6,1,"A recurring festival, usually happening annually in the same location.",44e9f6b1-34a7-3a17-a5d5-07bb100d8887
+9,Run,event,6,2,A series of performances of the same show at the same venue.,975e9447-dfa8-3e29-82d6-07908fe36f3e
+6,Event,event,\N,5,A series of events.,64640a2a-1c31-394d-b7b0-683a32ff9aff
+5,Catalogue,work,4,0,A series of works which form a catalogue of classical compositions.,49482ff0-fc9e-3b8c-a2d0-30e84d9df002
+4,Work,work,\N,3,A series of works.,b689f694-6305-3d78-954d-df6759a1877b
+3,Recording,recording,\N,2,A series of recordings.,dd968243-7128-30a2-81f0-79843430a8e2
+2,Release,release,\N,1,A series of releases.,52b90f1e-ff62-3bd0-b254-5d91ced5d757
+1,Release group,release_group,\N,0,A series of release groups.,4c1c4949-7b6c-3a2d-9d54-a50a27e4fa77

@@ -1,0 +1,5 @@
+id,name,parent,child_order,description,gid
+1,Official,\N,1,Any release officially sanctioned by the artist and/or their record company. Most releases will fit into this category.,4e304316-386d-3409-af2e-78857eec5cfe
+2,Promotion,\N,2,"A give-away release or a release intended to promote an upcoming official release (e.g. pre-release versions, releases included with a magazine, versions supplied to radio DJs for air-play).",518ffc83-5cde-34df-8627-81bff5093d92
+3,Bootleg,\N,3,An unofficial/underground release that was not sanctioned by the artist and/or the record company. This includes unofficial live recordings and pirated releases.,1156806e-d06a-38bd-83f0-cf2284a808b9
+4,Pseudo-Release,\N,4,An alternate version of a release where the titles have been changed. These don't correspond to any real release and should be linked to the original release using the transl(iter)ation relationship.,41121bb9-3413-3818-8a9a-9742318349aa

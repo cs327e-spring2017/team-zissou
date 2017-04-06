@@ -1,0 +1,6 @@
+id,name,parent,child_order,description,gid
+1,Wind instrument,\N,1,\N,876464a8-e74f-3f40-9bd3-637d2b1743ae
+2,String instrument,\N,2,\N,cc00f97f-cf3d-3ae2-9163-041cb1a0d726
+3,Percussion instrument,\N,3,\N,68fa2525-4c23-3386-bb81-e84994342e9a
+4,Electronic instrument,\N,4,\N,98df6cec-95e5-3cbc-9a2d-7ea6c8be6f3c
+5,Other instrument,\N,5,\N,01ba5777-02dd-347d-94a1-73e3db00215d

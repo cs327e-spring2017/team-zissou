@@ -1,0 +1,101 @@
+id,area,name,locale,edits_pending,last_updated,type,sort_name,begin_date_year,begin_date_month,begin_date_day,end_date_year,end_date_month,end_date_day,primary_for_locale,ended
+45,2621,Saigon,\N,0,2013-05-23 23:14:46.692407+00,\N,Saigon,\N,\N,\N,\N,\N,\N,f,f
+30,3821,City of Bristol,en,0,2013-05-21 15:18:03.17643+00,2,"Bristol, City of",\N,\N,\N,\N,\N,\N,f,f
+12,243,USSR,\N,0,2013-05-16 10:20:05.158309+00,3,USSR,\N,\N,\N,\N,\N,\N,f,f
+3,101,Islamic Republic of Iran,en,0,2013-05-15 18:14:33.988086+00,\N,"Iran, Islamic Republic of",\N,\N,\N,\N,\N,\N,f,f
+13,243,СССР,\N,0,2013-05-16 10:20:33.65162+00,3,СССР,\N,\N,\N,\N,\N,\N,f,f
+1,113,Republic of Korea,en,0,2013-05-15 18:16:49.806534+00,2,"Korea, Republic of",\N,\N,\N,\N,\N,\N,f,f
+2,112,Democratic People's Republic of Korea,en,0,2013-05-15 18:18:09.514758+00,2,"Korea, Democratic People's Republic of",\N,\N,\N,\N,\N,\N,f,f
+14,221,UK,\N,0,2013-05-16 11:06:19.67235+00,3,UK,\N,\N,\N,\N,\N,\N,f,f
+31,4309,Alacant,ca,0,2013-05-22 14:07:07.364453+00,1,Alacant,\N,\N,\N,\N,\N,\N,t,f
+5,26,Plurinational State of Bolivia,en,0,2013-05-15 18:18:40.542807+00,2,"Bolivia, Plurinational State of",\N,\N,\N,\N,\N,\N,f,f
+15,324,Yukon Territory,\N,0,2013-05-17 22:21:05.135641+00,\N,Yukon Territory,\N,\N,\N,\N,\N,\N,f,f
+46,3822,City of Edinburgh,en,0,2013-05-23 23:26:08.989902+00,2,"Edinburgh, City of",\N,\N,\N,\N,\N,\N,f,f
+16,249,Palestinian Territory,\N,0,2013-05-18 15:38:33.338206+00,\N,Palestinian Territory,\N,\N,\N,\N,\N,\N,f,f
+6,207,United Republic of Tanzania,en,0,2013-05-15 18:20:06.195971+00,2,"Tanzania, United Republic of",\N,\N,\N,\N,\N,\N,f,f
+32,4322,Castelló,ca,0,2013-05-22 14:07:21.968517+00,1,Castelló,\N,\N,\N,\N,\N,\N,t,f
+17,176,Russian Federation,en,0,2013-05-19 23:03:37.464377+00,2,Russian Federation,\N,\N,\N,\N,\N,\N,f,f
+7,140,Republic of Moldova,en,0,2013-05-15 18:21:33.132565+00,2,"Moldova, Republic of",\N,\N,\N,\N,\N,\N,f,f
+8,126,The Former Yugoslav Republic of Macedonia,en,0,2013-05-15 18:23:36.054188+00,\N,"Macedonia, The Former Yugoslav Republic of",\N,\N,\N,\N,\N,\N,f,f
+18,176,Russia,en,0,2013-05-19 23:03:56.367979+00,1,Russia,\N,\N,\N,\N,\N,\N,f,f
+9,126,Republic of Macedonia,en,0,2013-05-15 18:23:54.944213+00,\N,"Macedonia, Republic of",\N,\N,\N,\N,\N,\N,f,f
+10,116,Lao People's Democratic Republic,en,0,2013-05-15 18:34:50.343183+00,\N,Lao People's Democratic Republic,\N,\N,\N,\N,\N,\N,f,f
+33,4354,València,ca,0,2013-05-22 14:07:33.384138+00,1,València,\N,\N,\N,\N,\N,\N,t,f
+20,1828,Comunitat Valenciana,ca,0,2013-05-20 22:28:31.929637+00,2,Comunitat Valenciana,\N,\N,\N,\N,\N,\N,t,f
+21,1812,Principado de Asturias,es,0,2013-05-20 22:29:22.658853+00,2,"Asturias, Principado de",\N,\N,\N,\N,\N,\N,f,f
+47,3056,Doha,en,0,2013-05-23 23:40:06.227909+00,1,Doha,\N,\N,\N,\N,\N,\N,f,f
+34,4349,Gipuzkoa,eu,0,2013-05-22 14:08:42.494371+00,1,Gipuzkoa,\N,\N,\N,\N,\N,\N,t,f
+23,1825,Comunidad Foral de Navarra,es,0,2013-05-20 22:30:24.796769+00,2,"Navarra, Comunidad Foral de",\N,\N,\N,\N,\N,\N,f,f
+24,1826,Euskadi,eu,0,2013-05-20 22:32:15.077442+00,1,Euskadi,\N,\N,\N,\N,\N,\N,f,f
+25,1826,País Vasco,es,0,2013-05-20 22:32:22.520548+00,1,País Vasco,\N,\N,\N,\N,\N,\N,f,f
+35,4315,Bizkaia,eu,0,2013-05-22 14:08:46.259268+00,1,Bizkaia,\N,\N,\N,\N,\N,\N,t,f
+26,1793,Région de Bruxelles-Capitale,fr,0,2013-05-20 22:34:38.137833+00,2,"Bruxelles-Capitale, Région de",\N,\N,\N,\N,\N,\N,f,f
+27,1795,Région Wallonne,fr,0,2013-05-20 22:36:00.321877+00,2,"Wallonne, Région",\N,\N,\N,\N,\N,\N,f,f
+53,2473,Erevan,\N,0,2013-05-24 09:17:06.643087+00,\N,Erevan,\N,\N,\N,\N,\N,\N,f,f
+36,4356,Araba,eu,0,2013-05-22 14:08:52.453188+00,1,Araba,\N,\N,\N,\N,\N,\N,t,f
+37,1825,Nafarroa,eu,0,2013-05-22 14:18:35.653858+00,1,Nafarroa,\N,\N,\N,\N,\N,\N,t,f
+38,1821,Balears,\N,0,2013-05-22 15:00:21.218773+00,\N,Balears,\N,\N,\N,\N,\N,\N,f,f
+39,1823,Madrid,\N,0,2013-05-22 15:00:22.257025+00,\N,Madrid,\N,\N,\N,\N,\N,\N,f,f
+40,4337,Región de Murcia,\N,0,2013-05-22 15:00:22.788638+00,\N,"Murcia, Región de",\N,\N,\N,\N,\N,\N,f,f
+22,1825,Nafarroako Foru Komunitatea,eu,0,2013-05-22 15:00:23.280081+00,2,Nafarroako Foru Komunitatea,\N,\N,\N,\N,\N,\N,f,f
+15169,11971,Canton of Redange,en,0,2013-11-01 09:47:28.218649+00,1,Canton of Redange,\N,\N,\N,\N,\N,\N,t,f
+42,2458,Tuva,\N,0,2013-05-23 22:53:58.227924+00,1,Tuva,\N,\N,\N,\N,\N,\N,f,f
+43,1874,Aosta,\N,0,2013-05-23 23:04:01.520484+00,\N,Aosta,\N,\N,\N,\N,\N,\N,f,f
+44,2621,Sai Gon,\N,0,2013-05-23 23:14:28.723739+00,1,Sai Gon,\N,\N,\N,\N,\N,\N,f,f
+62,227,Vatican,fr,0,2013-05-27 12:18:46.696855+00,\N,Vatican,\N,\N,\N,\N,\N,\N,t,f
+55,2429,Moscow,en,0,2013-05-25 00:49:17.51928+00,1,Moscow,\N,\N,\N,\N,\N,\N,t,f
+60,227,Vatikan,et,0,2013-05-27 12:18:38.714151+00,\N,Vatikan,\N,\N,\N,\N,\N,\N,t,f
+56,227,Vatikanstadt,de,0,2013-05-27 12:18:20.834419+00,\N,Vatikanstadt,\N,\N,\N,\N,\N,\N,t,f
+57,227,Βατικανό,el,0,2013-05-27 12:18:24.111128+00,\N,Βατικανό,\N,\N,\N,\N,\N,\N,t,f
+58,227,Vatican City,en,0,2013-05-27 12:18:29.915464+00,\N,Vatican City,\N,\N,\N,\N,\N,\N,t,f
+59,227,Ciudad del Vaticano,es,0,2013-05-27 12:18:35.862719+00,\N,Ciudad del Vaticano,\N,\N,\N,\N,\N,\N,t,f
+63,227,Città del Vaticano,it,0,2013-05-27 12:18:49.330661+00,\N,Città del Vaticano,\N,\N,\N,\N,\N,\N,t,f
+61,227,Vatikaanivaltio,fi,0,2013-05-27 12:18:41.6872+00,\N,Vatikaanivaltio,\N,\N,\N,\N,\N,\N,t,f
+65,227,Vaticaanstad,nl,0,2013-05-27 12:18:54.857844+00,\N,Vaticaanstad,\N,\N,\N,\N,\N,\N,t,f
+64,227,バチカン,ja,0,2013-05-27 12:18:52.03201+00,\N,バチカン,\N,\N,\N,\N,\N,\N,t,f
+67,31,Britisches Territorium im Indischen Ozean,de,0,2013-05-27 12:19:00.594096+00,\N,Britisches Territorium im Indischen Ozean,\N,\N,\N,\N,\N,\N,t,f
+66,227,Vatikanstaten,no,0,2013-05-27 12:18:57.424174+00,\N,Vatikanstaten,\N,\N,\N,\N,\N,\N,t,f
+68,31,Βρετανικό Έδαφος Ινδικού Ωκεανού,el,0,2013-05-27 12:19:02.85365+00,\N,Βρετανικό Έδαφος Ινδικού Ωκεανού,\N,\N,\N,\N,\N,\N,t,f
+69,31,British Indian Ocean Territory,en,0,2013-05-27 12:19:05.498644+00,\N,British Indian Ocean Territory,\N,\N,\N,\N,\N,\N,t,f
+70,31,Territorio Británico del Océano Índico,es,0,2013-05-27 12:19:07.736144+00,\N,Territorio Británico del Océano Índico,\N,\N,\N,\N,\N,\N,t,f
+71,31,Briti India ookeani ala,et,0,2013-05-27 12:19:10.299395+00,\N,Briti India ookeani ala,\N,\N,\N,\N,\N,\N,t,f
+8348,2395,Oblast Brjansk,nl,0,2013-06-05 08:13:19.333995+00,1,Oblast Brjansk,\N,\N,\N,\N,\N,\N,t,f
+72,31,Brittiläinen Intian valtameren alue,fi,0,2013-05-27 12:19:15.397623+00,\N,Brittiläinen Intian valtameren alue,\N,\N,\N,\N,\N,\N,t,f
+29,222,USA,\N,0,2013-06-15 18:06:39.59323+00,3,USA,\N,\N,\N,\N,\N,\N,f,f
+78,15,Aserbaidschan,de,0,2013-05-27 12:19:32.589394+00,\N,Aserbaidschan,\N,\N,\N,\N,\N,\N,t,f
+73,31,Territoire britannique de l'océan Indien,fr,0,2013-05-27 12:19:20.094159+00,\N,Territoire britannique de l'océan Indien,\N,\N,\N,\N,\N,\N,t,f
+483,14,Oostenrijk,nl,0,2013-05-27 12:35:38.476692+00,\N,Oostenrijk,\N,\N,\N,\N,\N,\N,t,f
+74,31,Territorio britannico dell'oceano Indiano,it,0,2013-05-27 12:19:22.351891+00,\N,Territorio britannico dell'oceano Indiano,\N,\N,\N,\N,\N,\N,t,f
+16778,4044,Rrethi i Kukësit,sq,0,2013-11-01 16:21:33.40985+00,1,Rrethi i Kukësit,\N,\N,\N,\N,\N,\N,t,f
+15304,3217,Cuvette,ln,0,2013-11-01 10:18:26.113758+00,1,Cuvette,\N,\N,\N,\N,\N,\N,t,f
+20823,9536,भूज,mr,0,2013-11-02 20:26:22.539187+00,1,भूज,\N,\N,\N,\N,\N,\N,t,f
+16810,8755,Квасилов,ru,0,2013-11-01 16:28:58.821214+00,1,Квасилов,\N,\N,\N,\N,\N,\N,t,f
+18580,1792,Republika Srpska,bs,0,2013-11-02 06:31:42.039858+00,1,Republika Srpska,\N,\N,\N,\N,\N,\N,t,f
+66493,47,Columbia,\N,0,2015-06-02 21:32:00.911648+00,3,Columbia,\N,\N,\N,\N,\N,\N,f,f
+20858,8958,濱州市,zh_Hant,0,2013-11-02 20:33:47.971984+00,1,濱州市,\N,\N,\N,\N,\N,\N,t,f
+66377,88543,Nordzypern,de,0,2014-01-15 14:21:43.515501+00,1,Nordzypern,\N,\N,\N,\N,\N,\N,t,f
+66494,102793,Shannon County,\N,0,2015-06-10 14:50:24.671047+00,\N,Shannon County,\N,\N,\N,\N,\N,\N,f,f
+75,31,イギリス領インド洋地域,ja,0,2013-05-27 12:19:24.56808+00,\N,イギリス領インド洋地域,\N,\N,\N,\N,\N,\N,t,f
+567,175,Romania,fi,0,2013-05-27 12:39:39.766341+00,\N,Romania,\N,\N,\N,\N,\N,\N,t,f
+493,122,リヒテンシュタイン,ja,0,2013-05-27 12:36:04.096632+00,\N,リヒテンシュタイン,\N,\N,\N,\N,\N,\N,t,f
+495,122,Liechtenstein,no,0,2013-05-27 12:36:08.633407+00,\N,Liechtenstein,\N,\N,\N,\N,\N,\N,t,f
+665,52,Costa d'Avorio,it,0,2013-05-27 12:43:39.317301+00,\N,Costa d'Avorio,\N,\N,\N,\N,\N,\N,t,f
+496,252,Isle of Man,de,0,2013-05-27 12:36:14.381962+00,\N,Isle of Man,\N,\N,\N,\N,\N,\N,t,f
+593,34,ブルキナファソ,ja,0,2013-05-27 12:40:47.953978+00,\N,ブルキナファソ,\N,\N,\N,\N,\N,\N,t,f
+510,63,Egipto,es,0,2013-05-27 12:36:52.128306+00,\N,Egipto,\N,\N,\N,\N,\N,\N,t,f
+513,63,Égypte,fr,0,2013-05-27 12:36:59.087463+00,\N,Égypte,\N,\N,\N,\N,\N,\N,t,f
+547,32,Brunei,it,0,2013-05-27 12:38:38.577973+00,\N,Brunei,\N,\N,\N,\N,\N,\N,t,f
+607,157,Niue,et,0,2013-05-27 12:41:20.311302+00,\N,Niue,\N,\N,\N,\N,\N,\N,t,f
+768,168,Philippinen,de,0,2013-05-27 12:47:39.104874+00,\N,Philippinen,\N,\N,\N,\N,\N,\N,t,f
+621,193,Sudafrica,it,0,2013-05-27 12:41:53.565807+00,\N,Sudafrica,\N,\N,\N,\N,\N,\N,t,f
+671,206,Tajikistan,en,0,2013-05-27 12:43:53.465346+00,\N,Tajikistan,\N,\N,\N,\N,\N,\N,t,f
+653,83,Gibraltar,fr,0,2013-05-27 12:43:10.634206+00,\N,Gibraltar,\N,\N,\N,\N,\N,\N,t,f
+657,83,Gibraltar,no,0,2013-05-27 12:43:19.860793+00,\N,Gibraltar,\N,\N,\N,\N,\N,\N,t,f
+697,244,République démocratique allemande,fr,0,2013-05-27 12:44:54.18731+00,\N,République démocratique allemande,\N,\N,\N,\N,\N,\N,t,f
+705,17,Μπαχρέιν,el,0,2013-05-27 12:45:13.259678+00,\N,Μπαχρέιν,\N,\N,\N,\N,\N,\N,t,f
+788,67,Estland,nl,0,2013-05-27 12:48:25.064465+00,\N,Estland,\N,\N,\N,\N,\N,\N,t,f
+713,17,Bahrein,nl,0,2013-05-27 12:45:31.621957+00,\N,Bahrein,\N,\N,\N,\N,\N,\N,t,f
+726,123,Litauen,de,0,2013-05-27 12:46:02.367158+00,\N,Litauen,\N,\N,\N,\N,\N,\N,t,f
+896,47,コロンビア,ja,0,2013-05-27 12:52:39.259656+00,\N,コロンビア,\N,\N,\N,\N,\N,\N,t,f
+762,135,Mauritania,fi,0,2013-05-27 12:47:24.747099+00,\N,Mauritania,\N,\N,\N,\N,\N,\N,t,f
+795,19,Barbados,fi,0,2013-05-27 12:48:41.324633+00,\N,Barbados,\N,\N,\N,\N,\N,\N,t,f

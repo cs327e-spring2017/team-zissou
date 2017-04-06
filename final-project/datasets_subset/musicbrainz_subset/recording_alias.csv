@@ -1,0 +1,101 @@
+id,recording,name,locale,edits_pending,last_updated,type,sort_name,begin_date_year,begin_date_month,begin_date_day,end_date_year,end_date_month,end_date_day,primary_for_locale,ended
+1,7827570,Ungarische Rhapsodie Nr.15 A-Moll,\N,0,2015-05-18 21:05:02.544929+00,\N,Ungarische Rhapsodie Nr.15 A-Moll,\N,\N,\N,\N,\N,\N,f,f
+2,7827571,Ungarische Rhapsodie Nr.3 B-Dur,\N,0,2015-05-18 21:05:05.125509+00,\N,Ungarische Rhapsodie Nr.3 B-Dur,\N,\N,\N,\N,\N,\N,f,f
+3,7827572,Ungarische Rhapsodie Nr.2 Cis-Moll,\N,0,2015-05-18 21:05:13.205407+00,\N,Ungarische Rhapsodie Nr.2 Cis-Moll,\N,\N,\N,\N,\N,\N,f,f
+4,7827573,Ungarische Rhapsodie Nr. 13 A-Moll,\N,0,2015-05-18 21:05:15.297197+00,\N,Ungarische Rhapsodie Nr. 13 A-Moll,\N,\N,\N,\N,\N,\N,f,f
+5,7827574,Ungarische Rhapsodie Nr.8 Fis-Moll,\N,0,2015-05-18 21:05:17.406332+00,\N,Ungarische Rhapsodie Nr.8 Fis-Moll,\N,\N,\N,\N,\N,\N,f,f
+6,7827575,Ungarische Rhapsodie Nr.17 D-Moll,\N,0,2015-05-18 21:05:19.526216+00,\N,Ungarische Rhapsodie Nr.17 D-Moll,\N,\N,\N,\N,\N,\N,f,f
+7,10398635,Csárdás Obstiné,\N,0,2015-05-18 21:05:21.504028+00,\N,Csárdás Obstiné,\N,\N,\N,\N,\N,\N,f,f
+8,12756540,"Sonata No. 32 in C minor, Op. 111: II. Arietta. Adagio molto semplice e cantabile",\N,0,2015-05-18 21:05:26.603221+00,\N,"Sonata No. 32 in C minor, Op. 111: II. Arietta. Adagio molto semplice e cantabile",\N,\N,\N,\N,\N,\N,f,f
+9,12756537,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": III. Adagio sostenuto",\N,0,2015-05-18 21:05:26.603221+00,\N,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": III. Adagio sostenuto",\N,\N,\N,\N,\N,\N,f,f
+10,12756539,"Sonata No. 32 in C minor, Op. 111: I. Maestoso – Allegro con brio ed appassionato",\N,0,2015-05-18 21:05:26.603221+00,\N,"Sonata No. 32 in C minor, Op. 111: I. Maestoso – Allegro con brio ed appassionato",\N,\N,\N,\N,\N,\N,f,f
+11,12756536,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": I. Allegro",\N,0,2015-05-18 21:05:26.603221+00,\N,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": I. Allegro",\N,\N,\N,\N,\N,\N,f,f
+12,11311270,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": II. Scherzo",\N,0,2015-05-18 21:05:26.603221+00,\N,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": II. Scherzo",\N,\N,\N,\N,\N,\N,f,f
+13,12756538,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": IV. Largo. Allegro risoluto",\N,0,2015-05-18 21:05:26.603221+00,\N,"Sonata No. 29 in B-flat major, Op. 106 ""Hammerklavier"": IV. Largo. Allegro risoluto",\N,\N,\N,\N,\N,\N,f,f
+14,16378762,"Piano Sonata in C major, D 840: I. Moderato",\N,0,2015-05-18 21:07:11.236764+00,\N,"Piano Sonata in C major, D 840: I. Moderato",\N,\N,\N,\N,\N,\N,f,f
+15,16378763,"Piano Sonata in C major, D 840: II. Andante",\N,0,2015-05-18 21:07:13.373727+00,\N,"Piano Sonata in C major, D 840: II. Andante",\N,\N,\N,\N,\N,\N,f,f
+16,16378764,"German Dances, D 783 Op. 33 No. 1",\N,0,2015-05-18 21:07:15.272511+00,\N,"German Dances, D 783 Op. 33 No. 1",\N,\N,\N,\N,\N,\N,f,f
+17,16378765,"German Dances, D 783 Op. 33 No. 2",\N,0,2015-05-18 21:07:17.212639+00,\N,"German Dances, D 783 Op. 33 No. 2",\N,\N,\N,\N,\N,\N,f,f
+18,16378766,"German Dances, D 783 Op. 33 No. 3",\N,0,2015-05-18 21:07:19.242892+00,\N,"German Dances, D 783 Op. 33 No. 3",\N,\N,\N,\N,\N,\N,f,f
+19,16378767,"German Dances, D 783 Op. 33 No. 4",\N,0,2015-05-18 21:07:21.484596+00,\N,"German Dances, D 783 Op. 33 No. 4",\N,\N,\N,\N,\N,\N,f,f
+20,16378768,"German Dances, D 783 Op. 33 No. 5",\N,0,2015-05-18 21:07:23.51086+00,\N,"German Dances, D 783 Op. 33 No. 5",\N,\N,\N,\N,\N,\N,f,f
+21,16378769,"German Dances, D 783 Op. 33 No. 7",\N,0,2015-05-18 21:07:25.566538+00,\N,"German Dances, D 783 Op. 33 No. 7",\N,\N,\N,\N,\N,\N,f,f
+22,16378770,"German Dances, D 783 Op. 33 No. 8",\N,0,2015-05-18 21:07:27.796525+00,\N,"German Dances, D 783 Op. 33 No. 8",\N,\N,\N,\N,\N,\N,f,f
+23,16378771,"German Dances, D 783 Op. 33 No. 13",\N,0,2015-05-18 21:07:29.87064+00,\N,"German Dances, D 783 Op. 33 No. 13",\N,\N,\N,\N,\N,\N,f,f
+24,16378772,"German Dances, D 783 Op. 33 No. 14",\N,0,2015-05-18 21:07:31.963497+00,\N,"German Dances, D 783 Op. 33 No. 14",\N,\N,\N,\N,\N,\N,f,f
+25,16378773,"German Dances, D 783 Op. 33 No. 9",\N,0,2015-05-18 21:07:33.927672+00,\N,"German Dances, D 783 Op. 33 No. 9",\N,\N,\N,\N,\N,\N,f,f
+26,16378774,"German Dances, D 783 Op. 33 No. 10",\N,0,2015-05-18 21:07:35.974554+00,\N,"German Dances, D 783 Op. 33 No. 10",\N,\N,\N,\N,\N,\N,f,f
+27,16378775,"German Dances, D 783 Op. 33 No. 11",\N,0,2015-05-18 21:07:37.954112+00,\N,"German Dances, D 783 Op. 33 No. 11",\N,\N,\N,\N,\N,\N,f,f
+28,16378776,"German Dances, D 783 Op. 33 No. 12",\N,0,2015-05-18 21:07:40.043414+00,\N,"German Dances, D 783 Op. 33 No. 12",\N,\N,\N,\N,\N,\N,f,f
+29,16378777,"German Dances, D 783 Op. 33 No. 15",\N,0,2015-05-18 21:07:42.007577+00,\N,"German Dances, D 783 Op. 33 No. 15",\N,\N,\N,\N,\N,\N,f,f
+30,16378778,"German Dances, D 783 Op. 33 No. 16",\N,0,2015-05-18 21:07:44.074506+00,\N,"German Dances, D 783 Op. 33 No. 16",\N,\N,\N,\N,\N,\N,f,f
+31,16378779,"German Dances, D 783 Op. 33 No. 6",\N,0,2015-05-18 21:07:46.134382+00,\N,"German Dances, D 783 Op. 33 No. 6",\N,\N,\N,\N,\N,\N,f,f
+32,5319071,"Concerto for Piano and Orchestra, op. 42, I. Andante",\N,0,2015-05-18 21:07:48.068139+00,\N,"Concerto for Piano and Orchestra, op. 42, I. Andante",\N,\N,\N,\N,\N,\N,f,f
+33,5319072,"Concerto for Piano and Orchestra, op. 42, II. Molto Allegro",\N,0,2015-05-18 21:07:48.62092+00,\N,"Concerto for Piano and Orchestra, op. 42, II. Molto Allegro",\N,\N,\N,\N,\N,\N,f,f
+34,5319073,"Concerto for Piano and Orchestra, op. 42, III. Adagio",\N,0,2015-05-18 21:07:49.089124+00,\N,"Concerto for Piano and Orchestra, op. 42, III. Adagio",\N,\N,\N,\N,\N,\N,f,f
+35,5319074,"Concerto for Piano and Orchestra, op. 42, IV. Giocoso (moderato)",\N,0,2015-05-18 21:07:49.599306+00,\N,"Concerto for Piano and Orchestra, op. 42, IV. Giocoso (moderato)",\N,\N,\N,\N,\N,\N,f,f
+36,2723554,I Love to Love (But My Baby Just Loves to Dance),\N,0,2015-05-18 21:08:25.637781+00,\N,I Love to Love (But My Baby Just Loves to Dance),\N,\N,\N,\N,\N,\N,f,f
+37,10289168,"You Set My Heart on Fire, Part 2",\N,0,2015-05-18 21:08:29.353273+00,\N,"You Set My Heart on Fire, Part 2",\N,\N,\N,\N,\N,\N,f,f
+38,4283336,Parsifal: Erster Aufzug. Vorspiel,\N,0,2015-05-18 21:16:23.90647+00,\N,Parsifal: Erster Aufzug. Vorspiel,\N,\N,\N,\N,\N,\N,f,f
+39,4283337,"Parsifal: Erster Aufzug. ""He! Ho! Waldhüter ihr!"" (Gurnemanz, Erster und Zweiter Ritter, Erster und Zweiter Knappe, Kundry)",\N,0,2015-05-18 21:16:26.65773+00,\N,"Parsifal: Erster Aufzug. ""He! Ho! Waldhüter ihr!"" (Gurnemanz, Erster und Zweiter Ritter, Erster und Zweiter Knappe, Kundry)",\N,\N,\N,\N,\N,\N,f,f
+40,4283338,"Parsifal: Erster Aufzug. ""Recht so! - Habt Dank! - Ein wenig Rast"" (Amfortas, Zweiter Ritter, Gurnemanz)",\N,0,2015-05-18 21:16:29.644907+00,\N,"Parsifal: Erster Aufzug. ""Recht so! - Habt Dank! - Ein wenig Rast"" (Amfortas, Zweiter Ritter, Gurnemanz)",\N,\N,\N,\N,\N,\N,f,f
+41,4283339,"Parsifal: Erster Aufzug. ""Nicht Dank! - Haha! Was wird es helfen?"" (Kundry, Dritter und Vierter Knappe, Gurnemanz)",\N,0,2015-05-18 21:16:32.223577+00,\N,"Parsifal: Erster Aufzug. ""Nicht Dank! - Haha! Was wird es helfen?"" (Kundry, Dritter und Vierter Knappe, Gurnemanz)",\N,\N,\N,\N,\N,\N,f,f
+42,4283340,"Parsifal: Erster Aufzug. ""O wunden-wundervoller heiliger Speer!"" (Gurnemanz, Erster, Zweiter und Dritter Knappe)",\N,0,2015-05-18 21:16:34.781686+00,\N,"Parsifal: Erster Aufzug. ""O wunden-wundervoller heiliger Speer!"" (Gurnemanz, Erster, Zweiter und Dritter Knappe)",\N,\N,\N,\N,\N,\N,f,f
+43,4283341,"Parsifal: Erster Aufzug. ""Titurel, der fromme Held, der kannt' ihn wohl"" (Gurnemanz, Knappen)",\N,0,2015-05-18 21:16:37.419987+00,\N,"Parsifal: Erster Aufzug. ""Titurel, der fromme Held, der kannt' ihn wohl"" (Gurnemanz, Knappen)",\N,\N,\N,\N,\N,\N,f,f
+44,4283342,"Parsifal: Erster Aufzug. ""Weh! Weh!... Wer ist der Frevler?"" (Knappen, Ritter, Gurnemanz, Parsifal)",\N,0,2015-05-18 21:16:40.10572+00,\N,"Parsifal: Erster Aufzug. ""Weh! Weh!... Wer ist der Frevler?"" (Knappen, Ritter, Gurnemanz, Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+45,4283343,"Parsifal: Erster Aufzug. ""Nun sag! Nichts weißt du, was ich dich frage!"" (Gurnemanz, Parsifal, Kundry)",\N,0,2015-05-18 21:16:42.921554+00,\N,"Parsifal: Erster Aufzug. ""Nun sag! Nichts weißt du, was ich dich frage!"" (Gurnemanz, Parsifal, Kundry)",\N,\N,\N,\N,\N,\N,f,f
+46,4283400,"Parsifal: Erster Aufzug. ""Vom Bade kehrt der König heim"" (Gurnemanz, Parsidal)",\N,0,2015-05-18 21:16:45.42041+00,\N,"Parsifal: Erster Aufzug. ""Vom Bade kehrt der König heim"" (Gurnemanz, Parsidal)",\N,\N,\N,\N,\N,\N,f,f
+47,4283401,Parsifal: Erster Aufzug. Vermandlungsmusik,\N,0,2015-05-18 21:16:47.980629+00,\N,Parsifal: Erster Aufzug. Vermandlungsmusik,\N,\N,\N,\N,\N,\N,f,f
+72599,431390,SOS,\N,0,2016-06-24 13:00:29.946579+00,\N,SOS,\N,\N,\N,\N,\N,\N,f,f
+48,4283402,"Parsifal: Erster Aufzug. ""Nun achte wohl und laß mich she'"" (Gurnemanz) / ""Zum letzten Liebesmahle"" (Die Gralsritter, Jünglinge, Knaben)",\N,0,2015-05-18 21:16:50.541396+00,\N,"Parsifal: Erster Aufzug. ""Nun achte wohl und laß mich she'"" (Gurnemanz) / ""Zum letzten Liebesmahle"" (Die Gralsritter, Jünglinge, Knaben)",\N,\N,\N,\N,\N,\N,f,f
+49,4283403,"Parsifal: Erster Aufzug. ""Mein Sohn Amfortas, bist du am Amt?"" (Titurel, Amfortas) / ""Nein! Laßtihn unenthüllt!"" (Amfortas, Knaben, Jünglinge, Die Ritter)",\N,0,2015-05-18 21:16:53.1092+00,\N,"Parsifal: Erster Aufzug. ""Mein Sohn Amfortas, bist du am Amt?"" (Titurel, Amfortas) / ""Nein! Laßtihn unenthüllt!"" (Amfortas, Knaben, Jünglinge, Die Ritter)",\N,\N,\N,\N,\N,\N,f,f
+50,4283404,"Parsifal: Erster Aufzug. ""Enthüllet den Graf!"" (Titurel, Stimmen, Knaben)",\N,0,2015-05-18 21:16:55.624699+00,\N,"Parsifal: Erster Aufzug. ""Enthüllet den Graf!"" (Titurel, Stimmen, Knaben)",\N,\N,\N,\N,\N,\N,f,f
+51,4283405,"Parsifal: Erster Aufzug. ""Wein und Brot des letzen Mahles"" (Knaben, Jünginge, Die Ritter, Gurnemanz, Eine Altstimme, Stimmen)",\N,0,2015-05-18 21:16:58.191582+00,\N,"Parsifal: Erster Aufzug. ""Wein und Brot des letzen Mahles"" (Knaben, Jünginge, Die Ritter, Gurnemanz, Eine Altstimme, Stimmen)",\N,\N,\N,\N,\N,\N,f,f
+52,4283406,"Parsifal: Zweiter Aufzug. Vorspiel - ""Die Zeit ist da"" (Klingsor)",\N,0,2015-05-18 21:17:00.617197+00,\N,"Parsifal: Zweiter Aufzug. Vorspiel - ""Die Zeit ist da"" (Klingsor)",\N,\N,\N,\N,\N,\N,f,f
+53,4283407,"Parsifal: Zweiter Aufzug. ""Ach! - Ach! Tiefe Nacht!"" (Kundry, Klingsor)",\N,0,2015-05-18 21:17:03.072631+00,\N,"Parsifal: Zweiter Aufzug. ""Ach! - Ach! Tiefe Nacht!"" (Kundry, Klingsor)",\N,\N,\N,\N,\N,\N,f,f
+54,4283408,"Parsifal: Zweiter Aufzug. ""Hier was des Tosen! Hier, Hier!"" (Mädchen 1. und 2. Gruppe, Chor, Parsifal)",\N,0,2015-05-18 21:17:05.558299+00,\N,"Parsifal: Zweiter Aufzug. ""Hier was des Tosen! Hier, Hier!"" (Mädchen 1. und 2. Gruppe, Chor, Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+55,4283409,"Parsifal: Zweiter Aufzug. ""Komm, komm, holder Knabe!"" (Mädchen 1. und 2. Gruppe, Parsifal, Chor)",\N,0,2015-05-18 21:17:08.074454+00,\N,"Parsifal: Zweiter Aufzug. ""Komm, komm, holder Knabe!"" (Mädchen 1. und 2. Gruppe, Parsifal, Chor)",\N,\N,\N,\N,\N,\N,f,f
+56,4283410,"Parsifal: Zweiter Aufzug. ""Parsifal! - Weile!"" (Kundry, Parsifal, Mädchen 1. und 2. Gruppe, Chor)",\N,0,2015-05-18 21:17:10.562696+00,\N,"Parsifal: Zweiter Aufzug. ""Parsifal! - Weile!"" (Kundry, Parsifal, Mädchen 1. und 2. Gruppe, Chor)",\N,\N,\N,\N,\N,\N,f,f
+57,4283411,"Parsifal: Zweiter Aufzug. ""Dies alles - hab' Ich nun geträumt?"" (Parsifal, Kundry)",\N,0,2015-05-18 21:17:13.056112+00,\N,"Parsifal: Zweiter Aufzug. ""Dies alles - hab' Ich nun geträumt?"" (Parsifal, Kundry)",\N,\N,\N,\N,\N,\N,f,f
+58,4283412,"Parsifal: Zweiter Aufzug. ""Ich sah das Kind an seiner Mutter Brust"" (Kundry)",\N,0,2015-05-18 21:17:15.380862+00,\N,"Parsifal: Zweiter Aufzug. ""Ich sah das Kind an seiner Mutter Brust"" (Kundry)",\N,\N,\N,\N,\N,\N,f,f
+59,4283413,"Parsifal: Zweiter Aufzug. ""Wehe! Wehe! Was tat ich? Wo war ich?"" (Parsifal, Kundry)",\N,0,2015-05-18 21:17:17.788021+00,\N,"Parsifal: Zweiter Aufzug. ""Wehe! Wehe! Was tat ich? Wo war ich?"" (Parsifal, Kundry)",\N,\N,\N,\N,\N,\N,f,f
+60,4283414,"Parsifal: Zweiter Aufzug. ""Amfortas! - Die Wunde! - Die Wunde!"" (Parsifal, Kundry)",\N,0,2015-05-18 21:17:20.795369+00,\N,"Parsifal: Zweiter Aufzug. ""Amfortas! - Die Wunde! - Die Wunde!"" (Parsifal, Kundry)",\N,\N,\N,\N,\N,\N,f,f
+61,4283415,"Parsifal: Zweiter Aufzug. ""Grausamer! Fühlst du im Herzen nur and'rer Schmerzen"" (Kundry, Parsifal)",\N,0,2015-05-18 21:17:23.175863+00,\N,"Parsifal: Zweiter Aufzug. ""Grausamer! Fühlst du im Herzen nur and'rer Schmerzen"" (Kundry, Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+62,4283416,"Parsifal: Zweiter Aufzug. ""Vergeh unseliges Weib!"" (Parsifal, Kundry, Klingsor)",\N,0,2015-05-18 21:17:25.869744+00,\N,"Parsifal: Zweiter Aufzug. ""Vergeh unseliges Weib!"" (Parsifal, Kundry, Klingsor)",\N,\N,\N,\N,\N,\N,f,f
+63,4283417,Parsifal: Dritter Aufzug. Vorspiel,\N,0,2015-05-18 21:17:28.36403+00,\N,Parsifal: Dritter Aufzug. Vorspiel,\N,\N,\N,\N,\N,\N,f,f
+64,4283418,"Parsifal: Dritter Aufzug. ""Von dorther kam das Stöhnen!"" (Gurnemanz, Kundry)",\N,0,2015-05-18 21:17:31.023004+00,\N,"Parsifal: Dritter Aufzug. ""Von dorther kam das Stöhnen!"" (Gurnemanz, Kundry)",\N,\N,\N,\N,\N,\N,f,f
+65,4283419,"Parsifal: Dritter Aufzug. ""Heil dir, mein Gast!"" (Gurnemanz)",\N,0,2015-05-18 21:17:33.560992+00,\N,"Parsifal: Dritter Aufzug. ""Heil dir, mein Gast!"" (Gurnemanz)",\N,\N,\N,\N,\N,\N,f,f
+66,4283420,"Parsifal: Dritter Aufzug. ""Heil mir, daß ich dich wiederfinde!"" (Parsifal, Gurnemanz)",\N,0,2015-05-18 21:17:35.990312+00,\N,"Parsifal: Dritter Aufzug. ""Heil mir, daß ich dich wiederfinde!"" (Parsifal, Gurnemanz)",\N,\N,\N,\N,\N,\N,f,f
+67,4283421,"Parsifal: Dritter Aufzug. ""O Herr! War es ein Fluch, der dich vom rechten Pfad vertrieb"" (Gurnemanz, Parsifal)",\N,0,2015-05-18 21:17:38.582178+00,\N,"Parsifal: Dritter Aufzug. ""O Herr! War es ein Fluch, der dich vom rechten Pfad vertrieb"" (Gurnemanz, Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+68,4283422,"Parsifal: Dritter Aufzug. ""Nicht so! - Die heil'ge Quelle selbst erquicje unsrer Pilgers Bad"" (Gurnemanz, Parsifal)",\N,0,2015-05-18 21:17:41.025636+00,\N,"Parsifal: Dritter Aufzug. ""Nicht so! - Die heil'ge Quelle selbst erquicje unsrer Pilgers Bad"" (Gurnemanz, Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+69,4283423,"Parsifal: Dritter Aufzug. ""Gesegnet sei, du Reiner, durch das Reine!"" (Karfreitgszauber) (Gurnemanz, Parsifal)",\N,0,2015-05-18 21:17:43.471134+00,\N,"Parsifal: Dritter Aufzug. ""Gesegnet sei, du Reiner, durch das Reine!"" (Karfreitgszauber) (Gurnemanz, Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+70,4283424,"Parsifal: Dritter Aufzug. ""Du siehst, das ist nicht so"" (Gurnemanz, Parsifal)",\N,0,2015-05-18 21:17:46.012111+00,\N,"Parsifal: Dritter Aufzug. ""Du siehst, das ist nicht so"" (Gurnemanz, Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+71,4283425,"Parsifal: Dritter Aufzug. ""Mittag - Die Stund' ist da!"" (Gurnemanz)",\N,0,2015-05-18 21:17:48.529646+00,\N,"Parsifal: Dritter Aufzug. ""Mittag - Die Stund' ist da!"" (Gurnemanz)",\N,\N,\N,\N,\N,\N,f,f
+72,4283426,"Parsifal: Dritter Aufzug. ""Geleiten wir m bergenden Schrein den Garl zum heiligen Amte"" (Die Ritter)",\N,0,2015-05-18 21:17:51.15945+00,\N,"Parsifal: Dritter Aufzug. ""Geleiten wir m bergenden Schrein den Garl zum heiligen Amte"" (Die Ritter)",\N,\N,\N,\N,\N,\N,f,f
+73,4283427,"Parsifal: Dritter Aufzug. ""Ja, Wehe! Wehe! Weh' über mich!"" (Amfortas, Die Ritter)",\N,0,2015-05-18 21:17:53.912511+00,\N,"Parsifal: Dritter Aufzug. ""Ja, Wehe! Wehe! Weh' über mich!"" (Amfortas, Die Ritter)",\N,\N,\N,\N,\N,\N,f,f
+74,4283428,"Parsifal: Dritter Aufzug. ""Nur eine Waffe taugt"" (Parsifal)",\N,0,2015-05-18 21:17:56.480349+00,\N,"Parsifal: Dritter Aufzug. ""Nur eine Waffe taugt"" (Parsifal)",\N,\N,\N,\N,\N,\N,f,f
+75,4283429,"Parsifal: Dritter Aufzug. ""Höchsten Heils Wunder!"" (Knaben, Jünglinge, Ritter)",\N,0,2015-05-18 21:17:58.844551+00,\N,"Parsifal: Dritter Aufzug. ""Höchsten Heils Wunder!"" (Knaben, Jünglinge, Ritter)",\N,\N,\N,\N,\N,\N,f,f
+76,3794264,Confusion in My Soul,\N,0,2015-05-18 21:18:08.252724+00,\N,Confusion in My Soul,\N,\N,\N,\N,\N,\N,f,f
+77,17760330,In Dir ist Freude (Joyful),\N,0,2015-05-18 22:04:13.266474+00,\N,In Dir ist Freude (Joyful),\N,\N,\N,\N,\N,\N,f,f
+78,17760329,Was Gott tut das ist wohlgetan,\N,0,2015-05-18 22:04:13.266474+00,\N,Was Gott tut das ist wohlgetan,\N,\N,\N,\N,\N,\N,f,f
+79,900074,I Hope You Dance (album version),\N,0,2015-05-18 22:04:45.923511+00,\N,I Hope You Dance (album version),\N,\N,\N,\N,\N,\N,f,f
+80,900074,I Hope You Dance (Album Version),\N,0,2015-05-18 22:04:45.923511+00,\N,I Hope You Dance (Album Version),\N,\N,\N,\N,\N,\N,f,f
+81,2272237,I Hope You Dance,\N,0,2015-05-18 23:01:12.110564+00,\N,I Hope You Dance,\N,\N,\N,\N,\N,\N,f,f
+82,7542242,I May Hate Myself In The Morning,\N,0,2015-05-18 23:01:17.379192+00,\N,I May Hate Myself In The Morning,\N,\N,\N,\N,\N,\N,f,f
+83,316609,I'll Think of Reasons Later,\N,0,2015-05-18 23:02:07.729549+00,\N,I'll Think of Reasons Later,\N,\N,\N,\N,\N,\N,f,f
+84,2234360,Let It Snow/Winter Wonderland,\N,0,2015-05-18 23:02:08.855984+00,\N,Let It Snow/Winter Wonderland,\N,\N,\N,\N,\N,\N,f,f
+85,17760323,Wer nur den Lieben Gott lässt walten,\N,0,2015-05-18 23:02:30.213303+00,\N,Wer nur den Lieben Gott lässt walten,\N,\N,\N,\N,\N,\N,f,f
+74173,7655086,CUD,\N,0,2016-07-05 09:00:28.368515+00,\N,CUD,\N,\N,\N,\N,\N,\N,f,f
+87,11097247,"4 Impromptus for Piano, D 935/Op. 142 No. 1 in F minor: Allegro moderato",\N,0,2015-05-18 23:02:40.139292+00,\N,"4 Impromptus for Piano, D 935/Op. 142 No. 1 in F minor: Allegro moderato",\N,\N,\N,\N,\N,\N,f,f
+88,11097248,"4 Impromptus for Piano, D 935/Op. 142 No. 2 in A-flat major: Allegretto",\N,0,2015-05-18 23:02:41.850676+00,\N,"4 Impromptus for Piano, D 935/Op. 142 No. 2 in A-flat major: Allegretto",\N,\N,\N,\N,\N,\N,f,f
+89,11097249,"4 Impromptus for Piano, D 935/Op. 142 No. 3 in B-flat major: Andante. 6 Variations on a Theme from ""Rosamunde""",\N,0,2015-05-18 23:02:46.847927+00,\N,"4 Impromptus for Piano, D 935/Op. 142 No. 3 in B-flat major: Andante. 6 Variations on a Theme from ""Rosamunde""",\N,\N,\N,\N,\N,\N,f,f
+90,11097250,"4 Impromptus for Piano, D 935/Op. 142 No. 4 in F minor: Allegro scherzando",\N,0,2015-05-18 23:02:48.478229+00,\N,"4 Impromptus for Piano, D 935/Op. 142 No. 4 in F minor: Allegro scherzando",\N,\N,\N,\N,\N,\N,f,f
+91,16378794,"Piano Sonata in C minor, D 958: I. Allegro",\N,0,2015-05-18 23:03:01.973963+00,\N,"Piano Sonata in C minor, D 958: I. Allegro",\N,\N,\N,\N,\N,\N,f,f
+92,16378795,"Piano Sonata in C minor, D 958: II. Adagio",\N,0,2015-05-18 23:03:04.170391+00,\N,"Piano Sonata in C minor, D 958: II. Adagio",\N,\N,\N,\N,\N,\N,f,f
+93,16378796,"Piano Sonata in C minor, D 958: III. Menuetto. Trio",\N,0,2015-05-18 23:03:06.578312+00,\N,"Piano Sonata in C minor, D 958: III. Menuetto. Trio",\N,\N,\N,\N,\N,\N,f,f
+94,16378797,"Piano Sonata in C minor, D 958: IV. Allegro",\N,0,2015-05-18 23:03:11.880188+00,\N,"Piano Sonata in C minor, D 958: IV. Allegro",\N,\N,\N,\N,\N,\N,f,f
+95,2782641,Adoration To The Aum,\N,0,2015-05-18 23:04:37.917994+00,\N,Adoration To The Aum,\N,\N,\N,\N,\N,\N,f,f
+96,3648083,Cycles Of Life,\N,0,2015-05-18 23:04:37.917994+00,\N,Cycles Of Life,\N,\N,\N,\N,\N,\N,f,f
+97,6592372,Ulysse Voyage No. 2,\N,0,2015-05-18 23:04:37.917994+00,\N,Ulysse Voyage No. 2,\N,\N,\N,\N,\N,\N,f,f
+98,10692918,"Piano Concerto No. 5 in E-flat major, Op. 73: I. Allegro",\N,0,2015-05-19 00:01:08.543628+00,\N,"Piano Concerto No. 5 in E-flat major, Op. 73: I. Allegro",\N,\N,\N,\N,\N,\N,f,f
+101,187742,"Sonata for Piano No. 14 in C-sharp minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto",\N,0,2015-05-19 00:01:35.4647+00,\N,"Sonata for Piano No. 14 in C-sharp minor, Op. 27 No. 2 ""Moonlight"": I. Adagio sostenuto",\N,\N,\N,\N,\N,\N,f,f

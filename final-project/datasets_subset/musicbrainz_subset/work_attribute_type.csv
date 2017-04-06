@@ -1,0 +1,26 @@
+id,name,comment,free_text,parent,child_order,description,gid
+23,AKM ID,,t,14,0,\N,eee68598-7f51-44a7-bd5a-fc728f1854d2
+24,SADAIC ID,,t,14,0,\N,d8aa6512-314a-478d-bd30-e8d7411509cb
+25,OSA ID,,t,14,0,\N,2f9f66e4-c32c-4215-b7f4-4a146d0b2a0e
+26,BUMA/STEMRA ID,,t,14,0,\N,a6492434-b847-4f1b-9869-9184ade990ed
+1,Key,,f,\N,0,\N,7526c19d-3be4-3420-b6cc-9fb6e49fa1a9
+14,Identifiers,,f,\N,1,\N,588e1c46-c825-3aea-9068-9907f5c7c736
+3,JASRAC ID,,t,14,0,\N,31048fcc-3dbb-3979-8f85-805afb933e0c
+6,ASCAP ID,,t,14,0,\N,d833318c-6c6a-370e-8b16-9cb15873ba76
+7,BMI ID,,t,14,0,\N,c8ac7e55-fd45-3002-9f89-e8b43911a479
+8,SESAC ID,,t,14,0,\N,d05fce14-b3d7-370c-8655-e27ac2e4e290
+9,GEMA ID,,t,14,0,\N,01eeee67-f514-3801-bdce-279e04872f91
+10,SOCAN ID,,t,14,0,\N,00370bc6-7388-34a1-aa5b-b0e081ccb53d
+11,KOMCA ID,,t,14,0,\N,d1266c18-683c-3fbe-90a2-40a1c406efc6
+12,MÜST ID,,t,14,0,\N,7239bc9c-1361-3922-9f4f-607e40913ab0
+13,APRA ID,,t,14,0,\N,bdf50af8-0881-322a-8ab7-f031a4935d04
+4,Rāga (Carnatic),,f,\N,2,\N,fc6b57cc-d017-3a60-a59a-cbd23854b9d4
+5,Tāla (Carnatic),,f,\N,2,\N,f24b76ac-92b0-3ef3-be3f-5ca2cdf79d7d
+15,"Makam (Ottoman, Turkish)",,f,\N,3,\N,d7979776-ba34-3e8d-980f-4849b38143d2
+16,"Form (Ottoman, Turkish)",,f,\N,3,\N,77d00f78-0b30-3d91-80de-209a014d33a2
+17,"Usul (Ottoman, Turkish)",,f,\N,3,\N,29a16dc2-8602-3fee-9a03-a8cc87fa961d
+18,SUISA ID,,t,14,0,\N,034f35ae-d250-3749-95e7-854e606d5960
+19,CASH ID,,t,14,0,\N,9e0765a1-1505-3ca9-9147-8dcbb0aa9cec
+20,SGAE ID,,t,14,0,\N,6a200b13-ca08-3b32-87a9-7aaa46368d75
+21,SACEM ID,,t,14,0,\N,d08147e2-d167-3c2b-bbe4-af6643a194f9
+22,CCLI ID,,t,14,0,\N,378ab834-87c0-3c8a-b3e2-b7923405be8a

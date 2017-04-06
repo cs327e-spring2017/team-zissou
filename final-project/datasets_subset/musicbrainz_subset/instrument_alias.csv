@@ -1,0 +1,101 @@
+id,instrument,name,locale,edits_pending,last_updated,type,sort_name,begin_date_year,begin_date_month,begin_date_day,end_date_year,end_date_month,end_date_day,primary_for_locale,ended
+315,492,대금,ko,0,2014-05-25 18:54:00.090278+00,1,대금,\N,\N,\N,\N,\N,\N,t,f
+110,224,马头琴,zh_Hans,0,2014-05-26 02:24:32.130018+00,1,马头琴,\N,\N,\N,\N,\N,\N,t,f
+382,550,小鑼,zh_Hant,0,2014-05-26 02:27:26.602921+00,1,小鑼,\N,\N,\N,\N,\N,\N,t,f
+610,652,قرقبة,\N,0,2014-08-03 13:33:27.525662+00,\N,قرقبة,\N,\N,\N,\N,\N,\N,f,f
+660,177,gitaar,nl,0,2014-08-08 19:41:35.676008+00,1,gitaar,\N,\N,\N,\N,\N,\N,t,f
+627,664,アルパ,ja,0,2014-08-04 12:13:09.712047+00,\N,アルパ,\N,\N,\N,\N,\N,\N,f,f
+637,620,renat thum,\N,0,2014-08-04 17:41:47.659872+00,2,renat thum,\N,\N,\N,\N,\N,\N,f,f
+661,607,طار,ar,0,2014-08-20 11:35:06.156212+00,1,طار,\N,\N,\N,\N,\N,\N,t,f
+770,577,Buk,de,0,2014-08-20 16:54:05.048724+00,1,Buk,\N,\N,\N,\N,\N,\N,t,f
+639,614,renat ek,\N,0,2014-08-04 17:42:07.135426+00,2,renat ek,\N,\N,\N,\N,\N,\N,f,f
+663,438,zwölfsaitige Gitarre,de,0,2014-08-20 16:37:17.792287+00,1,zwölfsaitige Gitarre,\N,\N,\N,\N,\N,\N,t,f
+648,671,glong khaek,\N,0,2014-08-04 23:17:29.071511+00,2,glong khaek,\N,\N,\N,\N,\N,\N,f,f
+675,30,Waldhorn,de,0,2014-08-20 16:39:11.53065+00,1,Waldhorn,\N,\N,\N,\N,\N,\N,t,f
+690,139,Rhodes Piano,de,0,2014-08-20 16:41:41.143203+00,1,Rhodes Piano,\N,\N,\N,\N,\N,\N,t,f
+1077,185,Tabla,de,0,2014-08-20 17:41:24.528463+00,1,Tabla,\N,\N,\N,\N,\N,\N,t,f
+699,253,Warr Guitar,de,0,2014-08-20 16:43:07.836214+00,1,Warr Guitar,\N,\N,\N,\N,\N,\N,t,f
+780,436,Chalumeau,de,0,2014-08-20 16:55:32.084016+00,1,Chalumeau,\N,\N,\N,\N,\N,\N,t,f
+712,21,Altsaxophon,de,0,2014-08-20 16:45:08.157681+00,1,Altsaxophon,\N,\N,\N,\N,\N,\N,t,f
+729,301,Baritongitarre,de,0,2014-08-20 16:47:58.080945+00,1,Baritongitarre,\N,\N,\N,\N,\N,\N,t,f
+906,58,Harfe,de,0,2014-08-20 17:14:52.472229+00,1,Harfe,\N,\N,\N,\N,\N,\N,t,f
+740,207,Bassgitarre,de,0,2014-08-20 16:49:35.574773+00,1,Bassgitarre,\N,\N,\N,\N,\N,\N,t,f
+791,54,klassiche Gitarre,de,0,2014-08-20 16:57:12.118007+00,1,klassiche Gitarre,\N,\N,\N,\N,\N,\N,t,f
+750,432,Bayan,de,0,2014-08-20 16:51:05.063888+00,1,Bayan,\N,\N,\N,\N,\N,\N,t,f
+760,500,Körper-Perkussion,de,0,2014-08-20 16:52:36.392264+00,1,Körper-Perkussion,\N,\N,\N,\N,\N,\N,t,f
+765,229,Streichpsalter,de,0,2014-08-20 16:53:22.970611+00,1,Streichpsalter,\N,\N,\N,\N,\N,\N,t,f
+801,12,Kontrabassklarinette,de,0,2014-08-20 16:58:38.026974+00,1,Kontrabassklarinette,\N,\N,\N,\N,\N,\N,t,f
+1037,630,Setar,de,0,2014-08-20 17:35:10.10838+00,1,Setar,\N,\N,\N,\N,\N,\N,t,f
+805,510,Cornamuse,de,0,2014-08-20 16:59:13.737644+00,1,Cornamuse,\N,\N,\N,\N,\N,\N,t,f
+924,288,Kanun,de,0,2014-08-20 17:17:45.947083+00,1,Kanun,\N,\N,\N,\N,\N,\N,t,f
+809,164,Crotales / antike Zimbeln,de,0,2014-08-20 16:59:44.324543+00,1,Crotales / antike Zimbeln,\N,\N,\N,\N,\N,\N,t,f
+820,342,Darbuka,de,0,2014-08-20 17:01:29.805604+00,1,Darbuka,\N,\N,\N,\N,\N,\N,t,f
+833,598,Dombra,de,0,2014-08-20 17:03:39.871212+00,1,Dombra,\N,\N,\N,\N,\N,\N,t,f
+926,143,Kazoo,de,0,2014-08-20 17:18:03.043378+00,1,Kazoo,\N,\N,\N,\N,\N,\N,t,f
+839,101,Schlagzeug,de,0,2014-08-20 17:04:40.046917+00,1,Schlagzeug,\N,\N,\N,\N,\N,\N,t,f
+844,327,E-Bow,de,0,2014-08-20 17:05:29.692684+00,1,E-Bow,\N,\N,\N,\N,\N,\N,t,f
+854,117,elektronische Instrumente,de,0,2014-08-20 17:06:56.141915+00,1,elektronische Instrumente,\N,\N,\N,\N,\N,\N,t,f
+934,498,Kkwaenggwari,de,0,2014-08-20 17:19:18.021072+00,1,Kkwaenggwari,\N,\N,\N,\N,\N,\N,t,f
+870,384,Hammerklavier,de,0,2014-08-20 17:09:19.212849+00,1,Hammerklavier,\N,\N,\N,\N,\N,\N,t,f
+873,586,Reibetrommel,de,0,2014-08-20 17:09:46.350865+00,1,Reibetrommel,\N,\N,\N,\N,\N,\N,t,f
+1042,494,Shehnai,de,0,2014-08-20 17:35:58.000414+00,1,Shehnai,\N,\N,\N,\N,\N,\N,t,f
+880,75,Kayagûm,de,0,2014-08-20 17:10:53.483767+00,1,Kayagûm,\N,\N,\N,\N,\N,\N,t,f
+949,600,Mandocello,de,0,2014-08-20 17:21:43.569547+00,1,Mandocello,\N,\N,\N,\N,\N,\N,t,f
+889,138,Flügel,de,0,2014-08-20 17:12:16.36896+00,1,Flügel,\N,\N,\N,\N,\N,\N,t,f
+896,452,Guzheng,de,0,2014-08-20 17:13:20.947651+00,1,Guzheng,\N,\N,\N,\N,\N,\N,t,f
+1,7,cor anglais,\N,0,2014-05-25 18:49:16.953543+00,\N,cor anglais,\N,\N,\N,\N,\N,\N,f,f
+904,43,Mundharmonika,de,0,2014-08-20 17:14:34.431801+00,1,Mundharmonika,\N,\N,\N,\N,\N,\N,t,f
+960,591,Mirliton,de,0,2014-08-20 17:23:19.731256+00,1,Mirliton,\N,\N,\N,\N,\N,\N,t,f
+963,475,Mridangam,de,0,2014-08-20 17:23:47.610769+00,1,Mridangam,\N,\N,\N,\N,\N,\N,t,f
+1044,45,Sheng,de,0,2014-08-20 17:36:18.793782+00,1,Sheng,\N,\N,\N,\N,\N,\N,t,f
+983,38,Ophikleide,de,0,2014-08-20 17:26:50.938078+00,1,Ophikleide,\N,\N,\N,\N,\N,\N,t,f
+992,16,Panflöte,de,0,2014-08-20 17:28:13.593469+00,1,Panflöte,\N,\N,\N,\N,\N,\N,t,f
+1078,378,Taiko,de,0,2014-08-20 17:41:35.100068+00,1,Taiko,\N,\N,\N,\N,\N,\N,t,f
+1002,499,Piri,de,0,2014-08-20 17:29:41.513727+00,1,Piri,\N,\N,\N,\N,\N,\N,t,f
+1047,39,Schofar,de,0,2014-08-20 17:36:51.058124+00,1,Schofar,\N,\N,\N,\N,\N,\N,t,f
+1019,568,Rondador,de,0,2014-08-20 17:32:15.064174+00,1,Rondador,\N,\N,\N,\N,\N,\N,t,f
+1033,597,Saron,de,0,2014-08-20 17:34:31.988177+00,1,Saron,\N,\N,\N,\N,\N,\N,t,f
+1058,104,kleine Trommel / Snare,de,0,2014-08-20 17:38:29.001266+00,1,kleine Trommel / Snare,\N,\N,\N,\N,\N,\N,t,f
+2,7,English horn,\N,0,2014-05-25 18:49:16.953543+00,\N,English horn,\N,\N,\N,\N,\N,\N,f,f
+3,14,notched flute,\N,0,2014-05-25 18:49:16.953543+00,\N,notched flute,\N,\N,\N,\N,\N,\N,f,f
+4,14,rim-blown flute,\N,0,2014-05-25 18:49:16.953543+00,\N,rim-blown flute,\N,\N,\N,\N,\N,\N,f,f
+1109,106,Triangel,de,0,2014-08-20 17:46:30.172703+00,1,Triangel,\N,\N,\N,\N,\N,\N,t,f
+1066,57,Steel-Gitarre,de,0,2014-08-20 17:39:37.942149+00,1,Steel-Gitarre,\N,\N,\N,\N,\N,\N,t,f
+1086,425,Tangentenflügel,de,0,2014-08-20 17:42:53.025924+00,1,Tangentenflügel,\N,\N,\N,\N,\N,\N,t,f
+1070,296,Subkontrabassblockflöte,de,0,2014-08-20 17:40:14.806262+00,1,Subkontrabassblockflöte,\N,\N,\N,\N,\N,\N,t,f
+1164,250,Đàn Tranh,de,0,2014-08-20 18:31:48.343119+00,1,Đàn Tranh,\N,\N,\N,\N,\N,\N,t,f
+1095,22,Tenorsaxophon,de,0,2014-08-20 17:44:16.382095+00,1,Tenorsaxophon,\N,\N,\N,\N,\N,\N,t,f
+1119,89,Ukulele,de,0,2014-08-20 17:48:01.761189+00,1,Ukulele,\N,\N,\N,\N,\N,\N,t,f
+1107,345,Querflöten (alle Arten),de,0,2014-08-20 17:46:13.977772+00,1,Querflöten (alle Arten),\N,\N,\N,\N,\N,\N,t,f
+1137,282,Vocoder,de,0,2014-08-20 17:50:54.847381+00,1,Vocoder,\N,\N,\N,\N,\N,\N,t,f
+1127,162,Vibraslap,de,0,2014-08-20 17:49:21.915527+00,1,Vibraslap,\N,\N,\N,\N,\N,\N,t,f
+1128,91,Fidel,de,0,2014-08-20 17:49:30.866678+00,1,Fidel,\N,\N,\N,\N,\N,\N,t,f
+1157,240,Yueqin,de,0,2014-08-20 17:54:05.590487+00,1,Yueqin,\N,\N,\N,\N,\N,\N,t,f
+1147,163,Holzblock,de,0,2014-08-20 17:52:24.080982+00,1,Holzblock,\N,\N,\N,\N,\N,\N,t,f
+1167,438,12弦ギター,ja,0,2014-08-20 18:35:13.982641+00,1,12弦ギター,\N,\N,\N,\N,\N,\N,t,f
+1173,604,フロッピードライブ,ja,0,2014-08-20 18:36:06.778381+00,1,フロッピードライブ,\N,\N,\N,\N,\N,\N,t,f
+1175,603,ハードディスク,ja,0,2014-08-20 18:36:24.117291+00,1,ハードディスク,\N,\N,\N,\N,\N,\N,t,f
+1176,323,ハワイのギター,ja,0,2014-08-20 18:36:32.880781+00,1,ハワイのギター,\N,\N,\N,\N,\N,\N,t,f
+1179,278,ミニモーグ,ja,0,2014-08-20 18:37:04.925133+00,1,ミニモーグ,\N,\N,\N,\N,\N,\N,t,f
+2667,675,aangeslagen idiofoon,nl,0,2014-08-21 07:40:23.886318+00,1,aangeslagen idiofoon,\N,\N,\N,\N,\N,\N,t,f
+1165,558,Otsuzumi,de,0,2014-08-20 20:42:27.961332+00,1,Otsuzumi,\N,\N,\N,\N,\N,\N,t,f
+2936,156,caracola,es,0,2014-08-21 08:20:14.74827+00,1,caracola,\N,\N,\N,\N,\N,\N,t,f
+5431,684,喇叭,ko,0,2015-02-13 18:51:29.889489+00,1,喇叭,\N,\N,\N,\N,\N,\N,f,f
+109,224,馬頭琴,zh_Hant,0,2014-05-26 02:24:39.746988+00,1,馬頭琴,\N,\N,\N,\N,\N,\N,t,f
+385,551,大鑼,zh_Hant,0,2014-05-26 02:27:34.845091+00,1,大鑼,\N,\N,\N,\N,\N,\N,t,f
+611,655,بزق,ar,0,2014-08-03 13:51:06.422135+00,\N,بزق,\N,\N,\N,\N,\N,\N,t,f
+638,287,kim,\N,0,2014-08-04 17:41:52.096786+00,2,kim,\N,\N,\N,\N,\N,\N,f,f
+5731,821,su',\N,0,2017-01-02 21:22:48.421868+00,\N,su',\N,\N,\N,\N,\N,\N,f,f
+662,467,تار,fa,0,2014-08-20 11:35:33.955506+00,1,تار,\N,\N,\N,\N,\N,\N,t,f
+649,672,glong songna,\N,0,2014-08-04 23:17:36.749576+00,2,glong songna,\N,\N,\N,\N,\N,\N,f,f
+891,177,Gitarre,de,0,2014-08-20 17:12:34.247237+00,1,Gitarre,\N,\N,\N,\N,\N,\N,t,f
+664,516,17-saitiges Koto,de,0,2014-08-20 16:37:27.007575+00,1,17-saitiges Koto,\N,\N,\N,\N,\N,\N,t,f
+771,360,Knopfgriffakkordeon,de,0,2014-08-20 16:54:13.998958+00,1,Knopfgriffakkordeon,\N,\N,\N,\N,\N,\N,t,f
+676,356,Deutsche Harfe,de,0,2014-08-20 16:39:22.723809+00,1,Deutsche Harfe,\N,\N,\N,\N,\N,\N,t,f
+679,603,Festplatte,de,0,2014-08-20 16:39:57.355121+00,1,Festplatte,\N,\N,\N,\N,\N,\N,t,f
+691,476,Saraswati Vina,de,0,2014-08-20 16:41:51.30323+00,1,Saraswati Vina,\N,\N,\N,\N,\N,\N,t,f
+783,466,Charango,de,0,2014-08-20 16:55:58.58775+00,1,Charango,\N,\N,\N,\N,\N,\N,t,f
+700,468,Wurlitzer Electric Piano,de,0,2014-08-20 16:43:16.485911+00,1,Wurlitzer Electric Piano,\N,\N,\N,\N,\N,\N,t,f
+701,563,Xaphoon,de,0,2014-08-20 16:43:25.129608+00,1,Xaphoon,\N,\N,\N,\N,\N,\N,t,f
+999,401,Piccolotrompete,de,0,2014-08-20 17:29:12.97913+00,1,Piccolotrompete,\N,\N,\N,\N,\N,\N,t,f
+714,363,Amadinda,de,0,2014-08-20 16:45:30.153183+00,1,Amadinda,\N,\N,\N,\N,\N,\N,t,f

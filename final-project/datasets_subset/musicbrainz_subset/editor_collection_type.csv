@@ -1,0 +1,16 @@
+id,name,entity_type,parent,child_order,description,gid
+1,Release,release,\N,1,\N,d94659b2-4ce5-3a98-b4b8-da1131cf33ee
+2,Owned music,release,1,1,\N,c26c6ec4-17f0-32de-95c5-fa724dbdb308
+3,Wishlist,release,1,2,\N,5feda0f8-14cf-38fd-89d0-ac2d48ad3324
+4,Event,event,\N,2,\N,c205b6b3-0613-35ff-9cfa-40a299ad812a
+5,Attending,event,4,1,\N,de6aedf5-73c2-3f7c-88f8-e128c189a205
+6,Maybe attending,event,4,2,\N,ca023ecf-a230-39f4-a252-a8d3b4d59c24
+7,Area,area,\N,2,\N,ad024f25-ca93-32f5-a7bd-1055dff79f3c
+8,Artist,artist,\N,2,\N,b21ef166-d652-3e15-958d-1ff7ad3412ab
+9,Instrument,instrument,\N,2,\N,6929e090-d881-33b1-bbb0-575282633628
+10,Label,label,\N,2,\N,c7ec7b39-c34b-3ab2-9b68-ea42dceff6f5
+11,Place,place,\N,2,\N,b69e09f2-4f95-3359-b739-4435b0ce02f7
+12,Recording,recording,\N,2,\N,dda5c90e-4b0b-3482-a6a9-090844e0860e
+13,Release group,release_group,\N,2,\N,8b6a6897-2ab8-3e18-84ae-e4b7b3791d65
+14,Series,series,\N,2,\N,39115bd2-dc2a-3576-9fc6-f609ea9061a0
+15,Work,work,\N,2,\N,918a5dfb-dc15-3251-b57f-25fbdfe019ca
