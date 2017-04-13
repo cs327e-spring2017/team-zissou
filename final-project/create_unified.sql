@@ -66,5 +66,22 @@ create table unified.MB_Medium as
 	select id, release, format, name
 	from musicbrainz.Medium;
 
+create table unified.D_Genre as
+	select genre_id, cname as name
+	from discog.Genres
 
+create table unified.D_Releases_Genre as
+	select release_id, genre_id
+	from discog.releases_genres
 
+create table unified.MB_Artists_credit_name as
+	select artist_credit, artist, cname as name
+	from musicbrainz.Artist_credit_name
+
+create table unified.MB_Release_Group as
+	select id, cname as name, artist_credit, type
+	from musicbrainz.release_group
+
+create table unified.MB_Track as
+	select id, medium, cname as name, artist_credit
+	from musicbrainz.Track

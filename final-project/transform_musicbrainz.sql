@@ -123,3 +123,70 @@ update musicbrainz.Release set cname = initcap(btrim(split_part(cname,
 'Vs' , 1)));
 
 select name from musicbrainz.Release order by random() limit 50;
+
+
+alter table musicbrainz.artist_credit_name add column cname varchar(244);
+update musicbrainz.artist_credit_name set cname = name;
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+';' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+'/' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+'(' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+'[' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+':' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+'-' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+'...' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+'with' , 1)));
+update musicbrainz.artist_credit_name set cname = initcap(btrim(split_part(cname,
+'Vs' , 1)));
+
+
+alter table musicbrainz.release_group add column cname varchar(255);
+update musicbrainz.release_group set cname = name;
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+';' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+'/' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+'(' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+'[' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+':' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+'-' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+'...' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+'with' , 1)));
+update musicbrainz.release_group set cname = initcap(btrim(split_part(cname,
+'Vs' , 1)));
+
+
+
+alter table musicbrainz.Track add column cname varchar(1904);
+update musicbrainz.Track set cname = name;
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+';' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+'/' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+'(' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+'[' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+':' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+'-' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+'...' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+'with' , 1)));
+update musicbrainz.Track set cname = initcap(btrim(split_part(cname,
+'Vs' , 1)));

@@ -77,26 +77,26 @@ update discog.labels set cname = initcap(btrim(split_part(cname,
 'Vs.' , 1)));
 
 
-#Fixing discog.genres.title
-alter table discog.releases add column ctitle varchar(245);
-update discog.releases set ctitle = title;
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+#Fixing discog.genres.name
+alter table discog.releases add column cname varchar(245);
+update discog.releases set cname = name;
+update discog.releases set cname = initcap(btrim(split_part(cname,
 '(' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 ';' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 '/' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 '[' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 ':' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 '-' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 '...' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 'with' , 1)));
-update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
+update discog.releases set cname = initcap(btrim(split_part(cname,
 'Vs.' , 1)));
 
 

@@ -47,14 +47,14 @@ where mac.name='Neil Young';
 
 --6. How many releases under the label Epic Records?
 select count(*)
-from Discog_Labels l left join Discog_Release_Labels r on l.label_id = r.label_id
+from D_Labels l left join D_Releases_Labels r on l.label_id = r.label_id
 where l.name = 'Epic Records';
 
 --7. What genres has Radiohead released under?
-select distinct dg.name from Discog_Genre dg
-inner join Discog_Releases_Genre rg on dg.genre_id = rg.genre_id
-inner join Discog_Release_Artists ra on rg.release_id = ra.release_id
-inner join Discog_Artists a on ra.artist_id = a.artist_id
+select distinct dg.name from D_Genre dg
+inner join D_Releases_Genre rg on dg.genre_id = rg.genre_id
+inner join D_Release_Artists ra on rg.release_id = ra.release_id
+inner join D_Artists a on ra.artist_id = a.artist_id
 where a.name = 'Radiohead';
 
 --8. How many artist credits has Future received?
