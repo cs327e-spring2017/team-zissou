@@ -43,26 +43,29 @@ inner join MB_Release mr on mm.release = mr.id
 inner join MB_Artist_credit mac on mac.id = mr.artist_credit
 where mac.name='Neil Young';
 
---6. How many releases under each label type?
+--6. How many releases under the label Epic Records?
+select count(*)
+from Discog_Labels l left join Discog_Release_Labels r on l.label_id = r.label_id
+where l.name = 'Epic Records';
 
+--7. What genres has Radiohead released under?
+select distinct dg.name from Discog_Genre dg
+inner join Discog_Releases_Genre rg on dg.genre_id = rg.genre_id
+inner join Discog_Release_Artists ra on rg.release_id = ra.release_id
+inner join Discog_Artists a on ra.artist_id = a.artist_id
+where a.name = 'Radiohead';
 
+--8. How many artist credits has Future received?
+select count(*)
+from MB_Track t left join MB_Artist_credit_name a on t.artist_credit = a.artist_credit
+where a.name = 'Future';
 
---7. What release groups are associated with a particular release (or vice versa)?
+--9. How many release groups is Kanye West associated with?
+select count(*)
+from MB_Artist_credit_name a left join MB_Release_Group r on a.artist_credit = r.artist_credit
+where a.name = 'Kanye West';
 
-
-
---8. What artist credits has a particular artist received?
-
-
-
---9. What artist credits are associated with a particular release / release group?
-
-
-
---10. What is the longest (or shortest) track for a particular artist?
-
-
-
---11. What are the known aliases for particular artist / release?
-
-
+--10. What artists have done a rendition of Bohemian Rhapsody?
+select distinct acn.name from MB_Artist_credit_name acn
+left join MB_Track t on acn.artist_credit = t.artist_credit
+where t.name = 'Bohemian Rhapsody';
