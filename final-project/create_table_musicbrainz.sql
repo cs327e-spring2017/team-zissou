@@ -256,7 +256,7 @@ create table musicbrainz.Track(
    medium integer,
    position text,
    num text,
-   name varchar(3000),
+   name varchar(1904),
    artist_credit integer,
    length integer,
    edits_pending text,
