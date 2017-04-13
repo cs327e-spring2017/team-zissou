@@ -21,6 +21,13 @@ region 'us-east-1'
 csv quote '"' ignoreheader 1 trimblanks compupdate ON
 maxerror 50;
 
+copy artist_credit from
+'s3://cs327e-final-project-datasets/music-brainz-csv/artist_credit_name.csv'
+iam_role 'arn:aws:iam::659249333008:role/redshift_s3_role'
+region 'us-east-1'
+csv quote '"' ignoreheader 1 trimblanks compupdate ON
+maxerror 50;
+
 copy artist_credit_name from
 's3://cs327e-final-project-datasets/music-brainz-csv/artist_credit_name.csv'
 iam_role 'arn:aws:iam::659249333008:role/redshift_s3_role'

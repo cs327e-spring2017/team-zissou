@@ -52,6 +52,14 @@ create table musicbrainz.Artist_Alias_Type(
    gid text
 );
 
+create table musicbrainz.Artist_Credit(
+   id integer,
+   name text,
+   artist_count text,
+   ref_count text,
+   created text
+);
+
 create table musicbrainz.Artist_Credit_Name(
    artist_credit integer,
    position text,
