@@ -6,10 +6,14 @@ group by language;
 
 --2. How many releases do The Beatles have?
 
-select count(*)
-from MB_Releases mb inner join Release_Join j on mb.id = j.mb_id
-inner join D_Releases d on d.release_id = j.discog_id
-where j.name='The Beatles';
+select count(*) from Artist_Join aj
+inner join D_Artists da on aj.disc_id = da.artist_id
+inner join D_Release_Artists 
+inner join D_Releases dr
+inner join Release_Join rj on rj.discog_id = dr.release_id
+inner join MB_Release mr on rj.mb_id = mr.id
+inner join MB_Artist_credit mac on mr.artist_credit = mac.id
+where aj.name='The Beatles' or mac.name='The Beatles';
 
 --3. Which labels has a particular artist released under?
 
