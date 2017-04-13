@@ -1,10 +1,15 @@
 --1. How many releases in each language?
 
+select count(id), language
+from MB_Releases
+group by language;
 
+--2. How many releases do The Beatles have?
 
---2. How many releases does a particular artist have?
-
-
+select count(*)
+from MB_Releases mb inner join Release_Join j on mb.id = j.mb_id
+inner join D_Releases d on d.release_id = j.discog_id
+where j.name='The Beatles';
 
 --3. Which labels has a particular artist released under?
 
