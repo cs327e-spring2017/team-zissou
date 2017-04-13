@@ -1,6 +1,6 @@
-drop schema if exists discog;
+drop schema if exists unified;
 
-create schema discog;
+create schema unified;
 
 --Releases from both schemas + their join table
 
