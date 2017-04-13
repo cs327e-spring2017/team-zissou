@@ -1,3 +1,7 @@
+drop schema if exists discog;
+
+create schema discog;
+
 --Releases from both schemas + their join table
 
 create table unified.D_Releases as
