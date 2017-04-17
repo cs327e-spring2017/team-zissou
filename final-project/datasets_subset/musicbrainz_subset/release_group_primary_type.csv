@@ -1,6 +1,0 @@
-id,name,parent,child_order,description,gid
-1,Album,\N,1,\N,f529b476-6e62-324f-b0aa-1f3e33d313fc
-2,Single,\N,2,\N,d6038452-8ee0-3f68-affc-2de9a1ede0b9
-3,EP,\N,3,\N,6d0c5bf6-7a33-3420-a519-44fc63eedebf
-12,Broadcast,\N,4,\N,3b2e49e1-2875-37b8-9fa9-1f7cf3f49900
-11,Other,\N,99,\N,4fc3be2b-de1e-396b-a933-beb8f1607a22
