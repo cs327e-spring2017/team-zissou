@@ -10,7 +10,7 @@ return len(col.encode('utf-8'))
 $$ language plpythonu;
 
 
-# Fixing discog.artists.name and discog.artists.realname
+-- Fixing discog.artists.name and discog.artists.realname
 alter table discog.artists add column cname varchar(149);
 update discog.artists set cname = name;
 update discog.artists set cname = initcap(btrim(split_part(cname,
@@ -54,7 +54,7 @@ update discog.artists set crealname = initcap(btrim(split_part(crealname,
 'Vs.' , 1)));
 
 
-#Fixing discog.labels.name
+--Fixing discog.labels.name
 alter table discog.labels add column cname varchar(255);
 update discog.labels set cname = name;
 update discog.labels set cname = initcap(btrim(split_part(cname,
@@ -77,26 +77,26 @@ update discog.labels set cname = initcap(btrim(split_part(cname,
 'Vs.' , 1)));
 
 
-#Fixing discog.genres.name
-alter table discog.releases add column cname varchar(245);
-update discog.releases set cname = name;
-update discog.releases set cname = initcap(btrim(split_part(cname,
+--Fixing discog.genres.name
+alter table discog.releases add column ctitle varchar(245);
+update discog.releases set ctitle = title;
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 '(' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 ';' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 '/' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 '[' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 ':' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 '-' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 '...' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 'with' , 1)));
-update discog.releases set cname = initcap(btrim(split_part(cname,
+update discog.releases set ctitle = initcap(btrim(split_part(ctitle,
 'Vs.' , 1)));
 
 
