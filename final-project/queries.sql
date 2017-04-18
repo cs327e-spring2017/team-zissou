@@ -2,7 +2,7 @@ set search_path=unified;
 
 --1. How many releases in each language?
 
-select count(id), language
+select count(release_id), language
 from MB_Releases
 group by language;
 
