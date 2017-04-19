@@ -87,3 +87,7 @@ create table unified.MB_Release_Group as
 create table unified.MB_Track as
 	select id, medium, cname as name, artist_credit
 	from musicbrainz.Track;
+
+create table unified.MB_Release_Label as
+	select id, release, label
+	from musicbrainz.Release_Label;

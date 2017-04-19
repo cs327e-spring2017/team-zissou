@@ -47,8 +47,8 @@ where mac.name='Neil Young';
 
 --6. How many releases under the label Epic Records?
 select count(*)
-from D_Labels l left join D_Releases_Labels r on l.label_id = r.label_id
-where l.name = 'Epic Records';
+from MB_Label l left join MB_Release_Label r on l.id = r.label
+where l.name = 'Epic';
 
 --7. What genres has Radiohead released under?
 select distinct dg.name from D_Genre dg
@@ -59,15 +59,16 @@ where a.name = 'Radiohead';
 
 --8. How many artist credits has Future received?
 select count(*)
-from MB_Track t left join MB_Artist_credit_name a on t.artist_credit = a.artist_credit
+from MB_Track t left join MB_Artists_credit_name a on t.artist_credit = a.artist_credit
 where a.name = 'Future';
 
 --9. How many release groups is Kanye West associated with?
 select count(*)
-from MB_Artist_credit_name a left join MB_Release_Group r on a.artist_credit = r.artist_credit
+from MB_Artists_credit_name a left join MB_Release_Group r on a.artist_credit = r.artist_credit
 where a.name = 'Kanye West';
 
 --10. What artists have done a rendition of Bohemian Rhapsody?
-select distinct acn.name from MB_Artist_credit_name acn
+select distinct acn.name from MB_Artists_credit_name acn
 left join MB_Track t on acn.artist_credit = t.artist_credit
-where t.name = 'Bohemian Rhapsody';
+where t.name = 'Bohemian Rhapsody'
+order by acn.name;
