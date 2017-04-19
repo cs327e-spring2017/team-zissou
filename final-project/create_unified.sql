@@ -11,7 +11,7 @@ create table unified.D_Releases as
 	from discog.Releases;
 
 create table unified.MB_Releases as
-	select id as release_id, cname as title
+	select id as release_id, cname as title, language
 	from musicbrainz.Release;
 
 create table unified.Release_Join as
