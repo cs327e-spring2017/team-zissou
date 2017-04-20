@@ -9,31 +9,33 @@ create view v_q1 as
 	group by language, ml.name
 	order by count(release_id);
 
---2. How many releases does Neil Young have in each year? [FIX]
---Time: 1995.778 ms
+--2. How many releases does Neil Young have in each format?
+--Time: 994.008 ms
 
 create view v_q2 as
-	 distinct rj.title from Artist_Join aj
+	 mmf.name, count(mr.release_id) from MB_Medium_format mmf
+	inner join MB_Medium mm on mmf.id = mm.format
+	inner join MB_Releases mr on mm.release = mr.release_id
+	inner join Release_Join rj on rj.mb_id = mr.release_id
+	inner join D_Releases dr on rj.discog_id = dr.release_id
+	inner join D_Release_Artists dra on dr.release_id = dra.release_id
+	inner join D_Artists da on dra.artist_id = da.artist_id
+	inner join Artist_Join aj on aj.discog_id = da.artist_id
+	where aj.name='Neil Young'
+	group by mmf.name
+	order by count(mr.release_id);
+
+--3. How many artists from each country?
+--Time: 1581.991 ms
+
+create view v_q3 as
+	 country, count(da.artist_id) from Artist_Join aj
 	inner join D_Artists da on aj.discog_id = da.artist_id
 	inner join D_Release_Artists dra on dra.artist_id = da.artist_id
 	inner join D_Releases dr on dr.release_id = dra.release_id
 	inner join Release_Join rj on rj.discog_id = dr.release_id
-	inner join MB_Releases mr on rj.mb_id = mr.release_id
-	inner join MB_Artist_credit mac on mr.artist_credit = mac.id
-	where aj.name='Neil Young' or mac.name='Neil Young';
-
---3. Which labels have the Beastie Boys released under? [FIX]
---Time: 1895.775 ms
-
-create view v_q3 as
-	 distinct lj.name from Artist_Join aj
-	inner join D_Artists da on aj.discog_id = da.artist_id
-	inner join D_Release_Artists dra on dra.artist_id = da.artist_id
-	inner join D_Releases dr on dr.release_id = dra.release_id
-	inner join D_Releases_Labels drl on drl.release_id = dr.release_id
-	inner join D_Labels dl on dl.label_id = drl.label_id
-	inner join Label_Join lj on lj.disc_id = dl.label_id
-	where aj.name='Red Hot Chili Peppers';
+	group by country
+	order by count(da.artist_id);
 
 --4. How many releases does each label have?
 --Time: 2697.960 ms
@@ -47,30 +49,42 @@ create view v_q4 as
 	group by lj.name
 	order by count(*);
 
---5. What formats has Let It Be been released under? [FIX]
---Time: 1334.840 ms
+--5. What is the most-covered song? (release name with the most artists) [FIX]
+--Time: 2497.061 ms
 
 create view v_q5 as
-	 distinct mmf.name from MB_Medium_format mmf
-	inner join MB_Medium mm on mmf.id = mm.format
-	inner join MB_Releases mr on mm.release = mr.release_id
-	where mr.title='Let It Be';
+	 dr.title, count(da.artist_id) from Artist_Join aj
+	inner join D_Artists da on aj.discog_id = da.artist_id
+	inner join D_Release_Artists dra on dra.artist_id = da.artist_id
+	inner join D_Releases dr on dr.release_id = dra.release_id
+	inner join Release_Join rj on rj.discog_id = dr.release_id
+	group by dr.title
+	order by count(da.artist_id);
 
---6. How many releases under the label Epic Records?
+--6. What has been released under the label 'Epic'?
+--Time: 1538.901 ms
 
 create view v_q6 as
-	 count(*)
+	 aj.name, mr.title
 	from MB_Label l left join MB_Release_Label r on l.id = r.label
-	where l.name = 'Epic';
+	inner join MB_Releases mr on mr.release_id = r.release
+	inner join Release_Join rj on rj.mb_id = mr.release_id
+	inner join D_Releases dr on rj.discog_id = dr.release_id
+	inner join D_Release_Artists dra on dr.release_id = dra.release_id
+	inner join D_Artists da on dra.artist_id = da.artist_id
+	inner join Artist_Join aj on aj.discog_id = da.artist_id
+	where l.name = 'Epic' order by aj.name;
 
---7. What genres has Radiohead released under?
+--7. Which artists have released under the most genres?
+--Time: 2110.716 ms
 
 create view v_q7 as
-	 distinct dg.name from D_Genre dg
+	 a.name, count(distinct dg.name) from D_Genre dg
 	inner join D_Releases_Genre rg on dg.genre_id = rg.genre_id
 	inner join D_Release_Artists ra on rg.release_id = ra.release_id
 	inner join D_Artists a on ra.artist_id = a.artist_id
-	where a.name = 'Radiohead';
+	group by a.name
+	order by count(distinct dg.name);
 
 --8. How many artist credits has Future received?
 
