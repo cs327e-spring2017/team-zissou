@@ -49,7 +49,7 @@ create view v_q4 as
 	group by lj.name
 	order by count(*);
 
---5. What is the most-covered song? (release name with the most artists) [FIX]
+--5. What is the most-covered song? (release name with the most artists)
 --Time: 2497.061 ms
 
 create view v_q5 as
