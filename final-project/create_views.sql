@@ -90,23 +90,23 @@ create view v_q7 as
 --Time: 17450.152 ms
 
 create view v_q8 as
-	 t.name as Track, r.title as Album from MB_Track t
+	 r.title as Album, count(t.name) as Songs from MB_Track t
 	right join MB_Medium m on t.medium = m.id
 	right join MB_Releases r on m.release = r.release_id
 	right join MB_Artists_credit_name acn on r.artist_credit = acn.artist_credit
 	where acn.name = 'Future'
-	order by r.title;
+	group by r.title;
 
 --9. How many release groups is Kanye West associated with?
 --Time: 6240.194 ms
 
 create view v_q9 as
-	 l.name as Label, r.title as album from MB_Label l
+	 l.name as Label, count(r.title) as album from MB_Label l
 	right join MB_Release_Label rl on l.id = rl.label
 	right join MB_Releases r on rl.release = r.release_id
 	right join MB_Artists_credit_name acn on r.artist_credit = acn.artist_credit
 	where acn.name = 'Kanye West'
-	order by l.name;
+	group by l.name;
 
 --10. What artists have done a rendition of Bohemian Rhapsody?
 --Time: 9586.792 ms

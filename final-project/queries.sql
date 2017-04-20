@@ -74,24 +74,24 @@ group by a.name
 order by count(distinct dg.name);
 
 
---8. What Tracks and Albums has Future released?
-select t.name as Track, r.title as Album from MB_Track t
+--8. Number of  Tracks in Albums that Future released
+select r.title as Album, count(t.name) as Songs from MB_Track t
 right join MB_Medium m on t.medium = m.id
 right join MB_Releases r on m.release = r.release_id
 right join MB_Artists_credit_name acn on r.artist_credit = acn.artist_credit
 where acn.name = 'Future'
-order by r.title;
+group by r.title;
 
 --9. How are the labels and albums that Kanye West has worked for?
-select l.name as Label, r.title as album from MB_Label l
+select l.name as Label, count(r.title) as Releases from MB_Label l
 right join MB_Release_Label rl on l.id = rl.label
 right join MB_Releases r on rl.release = r.release_id
 right join MB_Artists_credit_name acn on r.artist_credit = acn.artist_credit
 where acn.name = 'Kanye West'
-order by l.name;
+group by l.name;
 
---10. What artists have done a rendition of Bohemian Rhapsody and what is there genre?
-select distinct acn.name as Artist, dg.name from MB_Artists_credit_name acn 
+--10. What genre produces the most renditions of Bohemian Rhapsody?
+select  dg.name as Genre, count(acn.name) as Artists from MB_Artists_credit_name acn 
 right join MB_Track t on acn.artist_credit = t.artist_credit
 right join MB_Releases r on t.artist_credit = r.artist_credit
 right join Release_Join rj on r.title = rj.title
@@ -99,6 +99,6 @@ right join D_Releases dr on rj.discog_id = dr.release_id
 right join D_Releases_Genre rg on dr.release_id = rg.release_id
 right join D_Genre dg on rg.genre_id = dg.genre_id
 where t.name = 'Bohemian Rhapsody'
-order by acn.name;
+group by dg.name;
 
 
