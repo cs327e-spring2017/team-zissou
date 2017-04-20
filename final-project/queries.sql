@@ -2,60 +2,77 @@ set search_path=unified;
 
 --1. How many releases in each language?
 
-select count(release_id), language
-from MB_Releases
-group by language;
+select count(release_id), ml.name, language
+from MB_Releases mr inner join MB_language ml on mr.language = ml.id
+group by language, ml.name
+order by count(release_id);
 
---2. What releases does Neil Young have?
+--2. How many releases does Neil Young have in each format?
 
-select distinct rj.title from Artist_Join aj
+select mmf.name, count(mr.release_id) from MB_Medium_format mmf
+inner join MB_Medium mm on mmf.id = mm.format
+inner join MB_Releases mr on mm.release = mr.release_id
+inner join Release_Join rj on rj.mb_id = mr.release_id
+inner join D_Releases dr on rj.discog_id = dr.release_id
+inner join D_Release_Artists dra on dr.release_id = dra.release_id
+inner join D_Artists da on dra.artist_id = da.artist_id
+inner join Artist_Join aj on aj.discog_id = da.artist_id
+where aj.name='Neil Young'
+group by mmf.name
+order by count(mr.release_id);
+
+--3. How many artists from each country?
+
+select country, count(da.artist_id) from Artist_Join aj
 inner join D_Artists da on aj.discog_id = da.artist_id
 inner join D_Release_Artists dra on dra.artist_id = da.artist_id
 inner join D_Releases dr on dr.release_id = dra.release_id
 inner join Release_Join rj on rj.discog_id = dr.release_id
-inner join MB_Releases mr on rj.mb_id = mr.release_id
-inner join MB_Artist_credit mac on mr.artist_credit = mac.id
-where aj.name='Neil Young' or mac.name='Neil Young';
-
---3. Which labels have RHCP released under?
-
-select distinct lj.name from Artist_Join aj
-inner join D_Artists da on aj.discog_id = da.artist_id
-inner join D_Release_Artists dra on dra.artist_id = da.artist_id
-inner join D_Releases dr on dr.release_id = dra.release_id
-inner join D_Releases_Labels drl on drl.release_id = dr.release_id
-inner join D_Labels dl on dl.label_id = drl.label_id
-inner join Label_Join lj on lj.disc_id = dl.label_id
-where aj.name='Red Hot Chili Peppers';
+group by country
+order by count(da.artist_id);
 
 --4. How many releases does each label have?
 
 select lj.name, count(*) from Release_Join rj
-inner join D_Releases dr on dr.release_id = rj.release_id
+inner join D_Releases dr on dr.release_id = rj.discog_id
 inner join D_Releases_Labels drl on drl.release_id = dr.release_id
 inner join D_Labels dl on dl.label_id = drl.label_id
 inner join Label_Join lj on lj.disc_id = dl.label_id
-group by lj.name;
+group by lj.name
+order by count(*);
 
---5. What formats has Neil Young released under?
+--5. What is the most-covered song? (release name with the most artists)
 
-select distinct mmf.name from MB_Medium_format mmf
-inner join MB_Medium mm on mmf.id = mm.format
-inner join MB_Releases mr on mm.release = mr.id
-inner join MB_Artist_credit mac on mac.id = mr.artist_credit
-where mac.name='Neil Young';
+select dr.title, count(da.artist_id) from Artist_Join aj
+inner join D_Artists da on aj.discog_id = da.artist_id
+inner join D_Release_Artists dra on dra.artist_id = da.artist_id
+inner join D_Releases dr on dr.release_id = dra.release_id
+inner join Release_Join rj on rj.discog_id = dr.release_id
+group by dr.title
+order by count(da.artist_id);
 
---6. How many releases under the label Epic Records?
-select count(*)
+--6. What has been released under the label 'Epic'?
+
+select aj.name, mr.title
 from MB_Label l left join MB_Release_Label r on l.id = r.label
-where l.name = 'Epic';
+inner join MB_Releases mr on mr.release_id = r.release
+inner join Release_Join rj on rj.mb_id = mr.release_id
+inner join D_Releases dr on rj.discog_id = dr.release_id
+inner join D_Release_Artists dra on dr.release_id = dra.release_id
+inner join D_Artists da on dra.artist_id = da.artist_id
+inner join Artist_Join aj on aj.discog_id = da.artist_id
+where l.name = 'Epic' order by aj.name;
 
---7. What genres has Radiohead released under?
-select distinct dg.name from D_Genre dg
+--7. Which artists have released under the most genres?
+--Time: 2110.716 ms
+
+select a.name, count(distinct dg.name) from D_Genre dg
 inner join D_Releases_Genre rg on dg.genre_id = rg.genre_id
 inner join D_Release_Artists ra on rg.release_id = ra.release_id
 inner join D_Artists a on ra.artist_id = a.artist_id
-where a.name = 'Radiohead';
+group by a.name
+order by count(distinct dg.name);
+
 
 --8. What Tracks and Albums has Future released?
 select t.name as Track, r.title as Album from MB_Track t
