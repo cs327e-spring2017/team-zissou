@@ -6,34 +6,34 @@ select count(release_id), language
 from MB_Releases
 group by language;
 
---2. How many releases do The Beatles have?
+--2. What releases does Neil Young have?
 
-select count(distinct rj.name) from Artist_Join aj
-inner join D_Artists da on aj.disc_id = da.artist_id
-inner join D_Release_Artists 
-inner join D_Releases dr
+select distinct rj.title from Artist_Join aj
+inner join D_Artists da on aj.discog_id = da.artist_id
+inner join D_Release_Artists dra on dra.artist_id = da.artist_id
+inner join D_Releases dr on dr.release_id = dra.release_id
 inner join Release_Join rj on rj.discog_id = dr.release_id
-inner join MB_Release mr on rj.mb_id = mr.id
+inner join MB_Releases mr on rj.mb_id = mr.release_id
 inner join MB_Artist_credit mac on mr.artist_credit = mac.id
-where aj.name='The Beatles' or mac.name='The Beatles';
+where aj.name='Neil Young' or mac.name='Neil Young';
 
---3. Which labels have the Beastie Boys released under?
+--3. Which labels have RHCP released under?
 
 select distinct lj.name from Artist_Join aj
-inner join D_Artists da on aj.disc_id = da.artist_id
-inner join D_Release_Artists 
-inner join D_Releases 
-inner join D_Releases_Labels
-inner join D_Labels dl
+inner join D_Artists da on aj.discog_id = da.artist_id
+inner join D_Release_Artists dra on dra.artist_id = da.artist_id
+inner join D_Releases dr on dr.release_id = dra.release_id
+inner join D_Releases_Labels drl on drl.release_id = dr.release_id
+inner join D_Labels dl on dl.label_id = drl.label_id
 inner join Label_Join lj on lj.disc_id = dl.label_id
-where aj.name='Beastie Boys';
+where aj.name='Red Hot Chili Peppers';
 
 --4. How many releases does each label have?
 
 select lj.name, count(*) from Release_Join rj
-inner join D_Releases
-inner join D_Releases_Labels
-inner join D_Labels dl
+inner join D_Releases dr on dr.release_id = rj.release_id
+inner join D_Releases_Labels drl on drl.release_id = dr.release_id
+inner join D_Labels dl on dl.label_id = drl.label_id
 inner join Label_Join lj on lj.disc_id = dl.label_id
 group by lj.name;
 
@@ -41,7 +41,7 @@ group by lj.name;
 
 select distinct mmf.name from MB_Medium_format mmf
 inner join MB_Medium mm on mmf.id = mm.format
-inner join MB_Release mr on mm.release = mr.id
+inner join MB_Releases mr on mm.release = mr.id
 inner join MB_Artist_credit mac on mac.id = mr.artist_credit
 where mac.name='Neil Young';
 
