@@ -57,18 +57,31 @@ inner join D_Release_Artists ra on rg.release_id = ra.release_id
 inner join D_Artists a on ra.artist_id = a.artist_id
 where a.name = 'Radiohead';
 
---8. How many artist credits has Future received?
-select count(*)
-from MB_Track t left join MB_Artists_credit_name a on t.artist_credit = a.artist_credit
-where a.name = 'Future';
+--8. What Tracks and Albums has Future released?
+select t.name as Track, r.title as Album from MB_Track t
+right join MB_Medium m on t.medium = m.id
+right join MB_Releases r on m.release = r.release_id
+right join MB_Artists_credit_name acn on r.artist_credit = acn.artist_credit
+where acn.name = 'Future'
+order by r.title;
 
---9. How many release groups is Kanye West associated with?
-select count(*)
-from MB_Artists_credit_name a left join MB_Release_Group r on a.artist_credit = r.artist_credit
-where a.name = 'Kanye West';
+--9. How are the labels and albums that Kanye West has worked for?
+select l.name as Label, r.title as album from MB_Label l
+right join MB_Release_Label rl on l.id = rl.label
+right join MB_Releases r on rl.release = r.release_id
+right join MB_Artists_credit_name acn on r.artist_credit = acn.artist_credit
+where acn.name = 'Kanye West'
+order by l.name;
 
---10. What artists have done a rendition of Bohemian Rhapsody?
-select distinct acn.name from MB_Artists_credit_name acn
-left join MB_Track t on acn.artist_credit = t.artist_credit
+--10. What artists have done a rendition of Bohemian Rhapsody and what is there genre?
+select distinct acn.name as Artist, dg.name from MB_Artists_credit_name acn 
+right join MB_Track t on acn.artist_credit = t.artist_credit
+right join MB_Releases r on t.artist_credit = r.artist_credit
+right join Release_Join rj on r.title = rj.title
+right join D_Releases dr on rj.discog_id = dr.release_id
+right join D_Releases_Genre rg on dr.release_id = rg.release_id
+right join D_Genre dg on rg.genre_id = dg.genre_id
 where t.name = 'Bohemian Rhapsody'
 order by acn.name;
+
+
