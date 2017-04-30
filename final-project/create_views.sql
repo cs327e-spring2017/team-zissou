@@ -86,7 +86,7 @@ create view v_q7 as
 	group by a.name
 	order by count(distinct dg.name);
 
---8. How many artist credits has Future received?
+--8. Number of  Tracks in Albums that Future released.
 --Time: 17450.152 ms
 
 create view v_q8 as
@@ -97,7 +97,7 @@ create view v_q8 as
 	where acn.name = 'Future'
 	group by r.title;
 
---9. How many release groups is Kanye West associated with?
+--9. Number of Releases per Label that Kanye West has worker for
 --Time: 6240.194 ms
 
 create view v_q9 as
@@ -108,11 +108,11 @@ create view v_q9 as
 	where acn.name = 'Kanye West'
 	group by l.name;
 
---10. What artists have done a rendition of Bohemian Rhapsody?
+--10. What genre produces the most renditions of Bohemian Rhapsody?
 --Time: 9586.792 ms
 
 create view v_q10 as
-	 distinct acn.name as Artist, dg.name from MB_Artists_credit_name acn 
+	select  dg.name as Genre, count(acn.name) as Artists from MB_Artists_credit_name acn 
 	right join MB_Track t on acn.artist_credit = t.artist_credit
 	right join MB_Releases r on t.artist_credit = r.artist_credit
 	right join Release_Join rj on r.title = rj.title
@@ -120,4 +120,4 @@ create view v_q10 as
 	right join D_Releases_Genre rg on dr.release_id = rg.release_id
 	right join D_Genre dg on rg.genre_id = dg.genre_id
 	where t.name = 'Bohemian Rhapsody'
-	order by acn.name;
+	group by dg.name;
